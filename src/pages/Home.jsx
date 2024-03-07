@@ -41,8 +41,8 @@ export const Home = () => {
       </section>
 
       <section className='news'>
-        <div className="container">
-          <div className="row">
+        
+          <div className="row news-screen">
             <div className="col-md-6">
               <h1>Latest news</h1>
               <div className='horizontal-line'></div>
@@ -151,11 +151,21 @@ export const Home = () => {
                       <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
                     </div>
                   </div>
+
+                  <div className='right-content'>
+                    <div className='right-news-image'>
+                      <img src={newsImg5} alt='newsImage' />
+                    </div>
+                    <div className='right-news-text'>
+                      <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        
       </section>
 
 

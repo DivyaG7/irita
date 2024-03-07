@@ -36,6 +36,8 @@
 
 #navbarSupportedContent{
     background: #3E58A0;
+    min-width: 101vw;
+    margin-left: -28px;
 }
 
 #navbarSupportedContent ul{
