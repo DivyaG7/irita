@@ -1,10 +1,12 @@
 
-
 .statement{
-    width: 100%;
     background: #3E58A0;
 }
 
+.statement-container{
+    width: 100%;
+    overflow: hidden;
+}
 
 .content {
     color: #FFFFFF;
@@ -50,8 +52,8 @@
 
 .news{
     padding: 2rem 2rem;
-    background: #13B1E3;
 }
+
 .news h1{
     text-align: left;
 }

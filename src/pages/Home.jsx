@@ -19,7 +19,7 @@ export const Home = () => {
       </div>
 
       <section className='statement'>
-        <div className='container'>
+        <div className='statement-container'>
           <div className="row row-bg">
             {/* Content */}
             <div className="col-md-6 content">
