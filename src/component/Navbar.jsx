@@ -45,6 +45,7 @@ export const Navbar = ({ onSearch }) => {
 
             {/* What's New */}
             <div className="col-md-6 d-flex justify-content-end align-items-center small-input">
+              <div className='d-flex justify-content-end align-items-center input1'>
               <form className="d-flex my-lg-0 my-3">
                 <input
                   className="form-control me-2"
@@ -58,7 +59,8 @@ export const Navbar = ({ onSearch }) => {
                         Search
                     </button> */}
               </form>
-              <Link className="btn mx-lg-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/Cart">What’s New</Link>
+              <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/Cart">What’s New</Link>
+              </div>
               {/* Toggler Icon */}
               <button className="navbar-toggler ml-auto"
                 type="button"
@@ -67,6 +69,8 @@ export const Navbar = ({ onSearch }) => {
               </button>
 
             </div>
+
+
           </div>
           {/* Second Row */}
 
