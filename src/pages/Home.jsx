@@ -19,153 +19,153 @@ export const Home = () => {
       </div>
 
       <section className='statement'>
+        <div className='container'>
+          <div className="row row-bg">
+            {/* Content */}
+            <div className="col-md-6 content">
+              <div className="statement_content">
+                <p id='statement_date'>14th February 2024</p>
+                <h2 id='statement_h'>India Russia Joint Statement</h2>
+                <p id='statement_content'>Created in 2012 with the support of the Ministry of Foreign Affairs & International Development in France, IFCCI’s HR & Recruitment Services has shown phenomenal growth over these years.</p>
+              </div>
+            </div>
 
-        <div className="row row-bg">
-          {/* Content */}
-          <div className="col-md-6 content">
-            <div className="statement_content">
-              <p id='statement_date'>14th February 2024</p>
-              <h2 id='statement_h'>India Russia Joint Statement</h2>
-              <p id='statement_content'>Created in 2012 with the support of the Ministry of Foreign Affairs & International Development in France, IFCCI’s HR & Recruitment Services has shown phenomenal growth over these years.</p>
+            {/* Image */}
+            <div className="col-md-6">
+              <div className="statement_image zoom-container">
+                <img src={statementImage} alt="statement_image" className="img-fluid zoom-effect" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='news'>
+
+        <div className="row news-screen">
+          <div className="col-md-6">
+            <h1>Latest news</h1>
+            <div className='horizontal-line'></div>
+            <div className='mt-4 mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg1} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>30 January 2024</p>
+                    <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
+                    <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg2} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>30 January 2024</p>
+                    <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
+                    <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg3} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>30 January 2024</p>
+                    <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
+                    <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg4} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>30 January 2024</p>
+                    <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
+                    <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          {/* Image */}
           <div className="col-md-6">
-            <div className="statement_image zoom-container">
-              <img src={statementImage} alt="statement_image" className="img-fluid zoom-effect" />
+            <div className='aside-content'>
+              <div className='right-heading'>
+                <h3>Briefings</h3>
+              </div>
+              <div className='right-container'>
+                <div className='right-content'>
+                  <div className='right-news-image'>
+                    <img src={newsImg5} alt='newsImage' />
+                  </div>
+                  <div className='right-news-text'>
+                    <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
+                  </div>
+                </div>
+
+                <div className='right-content'>
+                  <div className='right-news-image'>
+                    <img src={newsImg6} alt='newsImage' />
+                  </div>
+                  <div className='right-news-text'>
+                    <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
+                  </div>
+                </div>
+
+                <div className='right-content'>
+                  <div className='right-news-image'>
+                    <img src={newsImg5} alt='newsImage' />
+                  </div>
+                  <div className='right-news-text'>
+                    <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
 
-      </section>
-
-      <section className='news'>
-        
-          <div className="row news-screen">
-            <div className="col-md-6">
-              <h1>Latest news</h1>
-              <div className='horizontal-line'></div>
-              <div className='mt-4 mb-4'>
-                <div className='left-news row align-items-center'>
-                  <div className='col-md-4'>
-                    <div className='news-image smaller-image'>
-                      <img src={newsImg1} alt='newsImage' />
-                    </div>
-                  </div>
-                  <div className='col-md-8 right-news'>
-                    <div className='news-content'>
-                      <p id='news-date'>30 January 2024</p>
-                      <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
-                      <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
-                      <div className="read">
-                        <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className='mb-4'>
-                <div className='left-news row align-items-center'>
-                  <div className='col-md-4'>
-                    <div className='news-image smaller-image'>
-                      <img src={newsImg2} alt='newsImage' />
-                    </div>
-                  </div>
-                  <div className='col-md-8 right-news'>
-                    <div className='news-content'>
-                      <p id='news-date'>30 January 2024</p>
-                      <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
-                      <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
-                      <div className="read">
-                        <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className='mb-4'>
-                <div className='left-news row align-items-center'>
-                  <div className='col-md-4'>
-                    <div className='news-image smaller-image'>
-                      <img src={newsImg3} alt='newsImage' />
-                    </div>
-                  </div>
-                  <div className='col-md-8 right-news'>
-                    <div className='news-content'>
-                      <p id='news-date'>30 January 2024</p>
-                      <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
-                      <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
-                      <div className="read">
-                        <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className='mb-4'>
-                <div className='left-news row align-items-center'>
-                  <div className='col-md-4'>
-                    <div className='news-image smaller-image'>
-                      <img src={newsImg4} alt='newsImage' />
-                    </div>
-                  </div>
-                  <div className='col-md-8 right-news'>
-                    <div className='news-content'>
-                      <p id='news-date'>30 January 2024</p>
-                      <h2 id='news-h'>French President Emmanuel Macron announces the Launch of Classes Internationals</h2>
-                      <p id='news-content'>An Exclusive Gateway to Higher Education in French for Indian Students</p>
-                      <div className="read">
-                        <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6">
-              <div className='aside-content'>
-                <div className='right-heading'>
-                  <h3>Briefings</h3>
-                </div>
-                <div className='right-container'>
-                  <div className='right-content'>
-                    <div className='right-news-image'>
-                      <img src={newsImg5} alt='newsImage' />
-                    </div>
-                    <div className='right-news-text'>
-                      <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
-                    </div>
-                  </div>
-
-                  <div className='right-content'>
-                    <div className='right-news-image'>
-                      <img src={newsImg6} alt='newsImage' />
-                    </div>
-                    <div className='right-news-text'>
-                      <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
-                    </div>
-                  </div>
-
-                  <div className='right-content'>
-                    <div className='right-news-image'>
-                      <img src={newsImg5} alt='newsImage' />
-                    </div>
-                    <div className='right-news-text'>
-                      <p>U.S University Post-Graduate students fair in Bengaluru on Feb 12</p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        
       </section>
 
 
