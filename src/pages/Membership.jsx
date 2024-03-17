@@ -1,7 +1,7 @@
 import React from 'react'
 import '../pages/Membership.css'
 import member from '../assets/member.png'
-import corporate from '../assets/corporate.png'
+// import corporate from '../assets/corporate.png'
 import { Carousel } from 'react-bootstrap'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'; 
 
