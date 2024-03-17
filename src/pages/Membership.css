@@ -5,3 +5,34 @@
 .member h1{
     color: #3E58A0;
 }
+
+.corporate{
+    text-align: left;
+}
+
+.corporate h3{
+    color: #3E58A0;
+}
+
+.member-content{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.btn-container .btn{
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ED1C2E;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+
