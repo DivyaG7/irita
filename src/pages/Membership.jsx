@@ -13,7 +13,7 @@ export const Membership = () => {
         <p className='mb-4'>All Lions clubs share a single mission: we serve. Yet, no two Lions are exactly alike. That’s what makes our service so strong. The same can be said of our clubs—no two clubs are exactly alike. We offer a variety of club models and membership types to meet the needs of all those looking to serve. Here, we have a membership that’s right for you.</p>
       </div>
 
-      <Carousel nextIcon={<BsChevronRight style={{ fontSize: '2rem', color: 'black'}} />} // Custom next arrow icon
+      {/* <Carousel nextIcon={<BsChevronRight style={{ fontSize: '2rem', color: 'black'}} />} // Custom next arrow icon
       prevIcon={<BsChevronLeft style={{ fontSize: '2rem', color: 'black'}} />} >
         <Carousel.Item>
           <div className='container mt-5'>
@@ -21,7 +21,7 @@ export const Membership = () => {
               <div className='col-lg-6 col-md-12 col-12 order-lg-2 order-md-1 order-1 position-relative'>
                 <img src={member} alt='' className="img-fluid" />
                 <div className="position-absolute bottom-0 end-0 btn-container">
-                  <img src={corporate} alt='' style={{ zIndex: 1 }} />
+                  <img src={corporate} alt='' className="img-fluid" style={{ zIndex: 1 }} />
                   <button variant="primary" className='btn'>JOIN</button>
                 </div>
               </div>
@@ -46,14 +46,14 @@ export const Membership = () => {
             </div>
           </div>
         </Carousel.Item>
-        {/* Add Carousel.Item for each membership option */}
+        
         <Carousel.Item>
           <div className='container mt-5'>
             <div className='row member-content'>
               <div className='col-lg-6 col-md-12 col-12 order-lg-2 order-md-1 order-1 position-relative'>
                 <img src={member} alt='' className="img-fluid" />
                 <div className="position-absolute bottom-0 end-0 btn-container">
-                  <img src={corporate} alt='' style={{ zIndex: 1 }} />
+                  <img src={corporate} alt='' className="img-fluid" style={{ zIndex: 1 }} />
                   <button variant="primary" className='btn'>JOIN</button>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export const Membership = () => {
             </div>
           </div>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </div>
   )
 }
