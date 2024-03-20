@@ -18,8 +18,8 @@
 }
 
 .event-img img {
-    width: 100%;
-    height: auto;
+    min-width: 30vw;
+    min-height: 30vh;
 }
 
 .news-event .third {
@@ -72,4 +72,23 @@
 .five .hr{
     box-sizing: border-box;
     border-bottom: 1px solid #FFFFFF;
+    width: 30%;
+    margin-left: 70%;
+}
+
+.six{
+    display: flex;
+    flex-direction: column;
+}
+
+.six h1{
+    color: #3E58A0;
+}
+
+.press{
+    text-align: left;
+}
+
+.link{
+    color: #ED1C2E;
 }

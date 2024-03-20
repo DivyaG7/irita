@@ -1,0 +1,62 @@
+.speech{
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.left-speech{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12%;
+}
+
+.speechImg{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.left-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+}
+
+.left-links .speech-link{
+    color: #3E58A0;
+}
+
+#press{
+    color: #ED1C2E;
+}
+
+.right-image{
+    text-align: left;
+}
+
+.right-image p{
+    color: #3E58A0;
+}
+
+.right-speech{
+    text-align: left;
+}
+
+.right-speech .top-hr{
+    box-sizing: border-box;
+    border-bottom: 4px solid #3E58A0;
+}
+
+.right-speech .bottom-hr{
+    box-sizing: border-box;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.right-speech h2{
+    color: #ED1C2E;
+}
+
+.s-date{
+    color: #7B7777;
+}

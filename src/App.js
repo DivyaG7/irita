@@ -8,6 +8,7 @@ import { Membership } from './pages/Membership';
 import { Programmes } from './pages/Programmes';
 import { KeyInitiative } from './pages/Key_Initiative';
 import { NewsEvents } from './pages/News_Events';
+import { Speeches } from './component/Speeches';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Membership' element={<Membership />} />
           <Route path='/NewsEvents' element={<NewsEvents />} />
+          <Route path='/Speeches' element={<Speeches />} />
           <Route path='/Programmes' element={<Programmes />} />
           <Route path='/KeyInitiative' element={<KeyInitiative />} />
         </Routes>
