@@ -20,7 +20,7 @@ export const Speeches = () => {
                         </div>
                         <div className='right-image'>
                             <p>Media Files</p>
-                            <div className='speechImg'>
+                            <div className='speechImg mb-5'>
                                 <img src={speech1} alt='press-img' />
                                 <img src={speech2} alt='press-img' />
                                 <img src={speech3} alt='press-img' />
