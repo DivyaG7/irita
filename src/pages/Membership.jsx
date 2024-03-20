@@ -1,7 +1,7 @@
 import React from 'react'
 import '../pages/Membership.css'
 import member from '../assets/member.png'
-// import corporate from '../assets/corporate.png'
+import corporate from '../assets/corporate.png'
 import { Carousel } from 'react-bootstrap'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'; 
 
@@ -20,10 +20,10 @@ export const Membership = () => {
             <div className='row member-content'>
               <div className='col-lg-6 col-md-12 col-12 order-lg-2 order-md-1 order-1 position-relative'>
                 <img src={member} alt='' className="img-fluid" />
-                {/* <div className="position-absolute bottom-0 end-0 btn-container">
+                <div className="position-absolute bottom-0 end-0 btn-container">
                   <img src={corporate} alt='' className="img-fluid" style={{ zIndex: 1 }} />
                   <button variant="primary" className='btn'>JOIN</button>
-                </div> */}
+                </div>
               </div>
               <div className='col-lg-6 col-md-12 col-12 order-lg-2 order-md-1 order-2'>
                 <div className='corporate'>

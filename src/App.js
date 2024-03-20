@@ -5,9 +5,9 @@ import { Home } from "../src/pages/Home"
 import { Navbar } from './component/Navbar';
 import { About } from './pages/About';
 import { Membership } from './pages/Membership';
-import { NewsEvents } from './pages/News_Events';
 import { Programmes } from './pages/Programmes';
 import { KeyInitiative } from './pages/Key_Initiative';
+import { NewsEvents } from './pages/News_Events';
 
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Membership' element={<Membership />} />
-          <Route path='/News_Events' element={<NewsEvents />} />
+          <Route path='/NewsEvents' element={<NewsEvents />} />
           <Route path='/Programmes' element={<Programmes />} />
-          <Route path='/Key_Initiative' element={<KeyInitiative />} />
+          <Route path='/KeyInitiative' element={<KeyInitiative />} />
         </Routes>
       </Router>
     </div>
