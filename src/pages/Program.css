@@ -54,14 +54,6 @@
     color: #ED1C2E;
 }
 
-.all-event{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    
-}
-
 .women-bg{
     background: #132C71;
 }
