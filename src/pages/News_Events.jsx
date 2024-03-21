@@ -9,11 +9,11 @@ export const NewsEvents = () => {
       <div className='event-container'>
         <div className='row'>
           <div className='col-md-6 bg'>
-            <p id='event-date'>14th February 2024</p>
-            <h1 id='event-h'>India Russia Joint Statement</h1>
-            <p id='event-content'>Created in 2012 with the support of the Ministry of Foreign Affairs & International
-              Development in France, IFCCI’s HR & Recruitment Services has shown
-              phenomenal growth over these years.</p>
+            <p id='event-date'>19th August 2021</p>
+            <h1 id='event-h'>President of IRITA</h1>
+            <p id='event-content'>Anirudh Balaji of Horizon Group appointed
+              as the new president of Indo-Russian IT
+              Association.</p>
           </div>
           <div className='col-md-6'>
             <div className='event-img'>

@@ -1,7 +1,9 @@
 import React from 'react'
 import '../pages/Home.css'
 import { MyCarousel } from '../component/Carousel'
-import statementImage from '../assets/Rectangle 13056.png'
+import home1 from '../assets/home1.png'
+import home2 from '../assets/home2.png'
+import home3 from '../assets/home3.png'
 import { Link } from 'react-router-dom'
 import newsImg1 from '../assets/Rectangle 13057.png'
 import newsImg2 from '../assets/Rectangle 13058.png'
@@ -10,6 +12,7 @@ import newsImg4 from '../assets/Rectangle 13060.png'
 import newsImg5 from '../assets/Rectangle 13038.png'
 import newsImg6 from '../assets/Rectangle 13041.png'
 import mediaImg from '../assets/Capture 1.png'
+import { Carousel } from 'react-bootstrap'
 
 export const Home = () => {
   return (
@@ -20,23 +23,72 @@ export const Home = () => {
 
       <section className='statement'>
         <div className='statement-container'>
-          <div className="row row-bg">
-            {/* Content */}
-            <div className="col-md-6 content">
-              <div className="statement_content">
-                <p id='statement_date'>14th February 2024</p>
-                <h2 id='statement_h'>India Russia Joint Statement</h2>
-                <p id='statement_content'>Created in 2012 with the support of the Ministry of Foreign Affairs & International Development in France, IFCCI’s HR & Recruitment Services has shown phenomenal growth over these years.</p>
-              </div>
-            </div>
+          <Carousel>
+            <Carousel.Item>
+              <div className="row row-bg">
+                {/* Content */}
+                <div className="col-md-6 content">
+                  <div className="statement_content">
+                    <p id='statement_date'>18th July 2022</p>
+                    <h2 id='statement_h'>Vice - President</h2>
+                    <p id='statement_content'>We welcome Dr. E. Khalieraj as our Vice President for the vertical - Cyber Security of
+                      the INDO - Russian IT Association.</p>
+                  </div>
+                </div>
 
-            {/* Image */}
-            <div className="col-md-6">
-              <div className="statement_image zoom-container">
-                <img src={statementImage} alt="statement_image" className="img-fluid zoom-effect" />
+                {/* Image */}
+                <div className="col-md-6">
+                  <div className="statement_image zoom-container">
+                    <img src={home3} alt="statement_image" className="img-fluid zoom-effect" />
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="row row-bg">
+                {/* Content */}
+                <div className="col-md-6 content">
+                  <div className="statement_content">
+                    <p id='statement_date'>19th June 2022</p>
+                    <h2 id='statement_h'>National Day of Russia</h2>
+                    <p id='statement_content'>Was Invited by the Consul General of the Russian Federation in South India for the
+                      celebration of National Day of Russia.
+                      In the Picture from the right Consul General, H.E. Mr. Oleg N.Avdeev, Mr.Anirudh Balaji
+                      President Indo Russian IT Association, and Mr.Basha Director Indo Russian IT Association
+                      (I-RITA).</p>
+                  </div>
+                </div>
+
+                {/* Image */}
+                <div className="col-md-6">
+                  <div className="statement_image zoom-container">
+                    <img src={home2} alt="statement_image" className="img-fluid zoom-effect" />
+                  </div>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="row row-bg">
+                {/* Content */}
+                <div className="col-md-6 content">
+                  <div className="statement_content">
+                    <p id='statement_date'>18th Febrauary 2022</p>
+                    <h2 id='statement_h'>National Day of Russia</h2>
+                    <p id='statement_content'>Our President Mr. Anirudh Balaji with Mr. Krishnan IAS -  Additional Chief Secretary to
+                      Government - Industries Department & Mr. Gennadii Rogalov - Director of Russian House,
+                      Chennai.</p>
+                  </div>
+                </div>
+
+                {/* Image */}
+                <div className="col-md-6">
+                  <div className="statement_image zoom-container">
+                    <img src={home1} alt="statement_image" className="img-fluid zoom-effect" />
+                  </div>
+                </div>
+              </div>
+            </Carousel.Item>
+          </Carousel>
         </div>
       </section>
 

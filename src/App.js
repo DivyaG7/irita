@@ -12,10 +12,11 @@ import { Speeches } from './component/Speeches';
 
 
 function App() {
+
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />

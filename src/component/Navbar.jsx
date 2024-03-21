@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import './Navbar.css';
 import { Link } from 'react-router-dom'
 import logo from '../assets/irita-logo.png'
+// import { useNavigate } from 'react-router-dom';
 
 
 export const Navbar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [collapsed, setCollapsed] = useState(true);
-  // const navigate = useNavigate();
+ // const navigate = useNavigate();
 
   // const handleSearch = (e) => {
   //     e.preventDefault();
