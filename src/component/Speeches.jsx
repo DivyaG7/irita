@@ -21,10 +21,10 @@ export const Speeches = () => {
                         <div className='right-image'>
                             <p>Media Files</p>
                             <div className='speechImg mb-5'>
-                                <img src={speech1} alt='press-img' />
-                                <img src={speech2} alt='press-img' />
-                                <img src={speech3} alt='press-img' />
-                                <img src={speech4} alt='press-img' />
+                                <img src={speech1} alt='press-img' className="img-fluid"/>
+                                <img src={speech2} alt='press-img' className="img-fluid"/>
+                                <img src={speech3} alt='press-img' className="img-fluid"/>
+                                <img src={speech4} alt='press-img' className="img-fluid"/>
                             </div>
                         </div>
                     </div>

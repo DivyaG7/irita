@@ -58,9 +58,9 @@ export const Home = () => {
                     <p id='news-date'>19 March 2024</p>
                     <h2 id='news-h'>MEA appoints Vinay Kumar as new ambassador in
                       Russia</h2>
-                    <p id='news-content'>Moscow, along with Washington, London, Tokyo and Canberra, is among 
-the top postings for an Indian diplomat and Kumar will be responsible for 
-steering India’s relations with Russia</p>
+                    <p id='news-content'>Moscow, along with Washington, London, Tokyo and Canberra, is among
+                      the top postings for an Indian diplomat and Kumar will be responsible for
+                      steering India’s relations with Russia</p>
                     <div className="read">
                       <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
                     </div>
@@ -80,10 +80,10 @@ steering India’s relations with Russia</p>
                   <div className='news-content'>
                     <p id='news-date'>18 March 2024</p>
                     <h2 id='news-h'>Vladimir Putin | Reign of the patriarch</h2>
-                    <p id='news-content'>If in the late 1990s, Vladimir Putin was seen as the man who could fix Russia’s 
-problems, now he is the face of the state that’s at war in Ukraine “with the 
-collective West” and has built a water-tight authoritarian system at home that
- allows no dissent.</p>
+                    <p id='news-content'>If in the late 1990s, Vladimir Putin was seen as the man who could fix Russia’s
+                      problems, now he is the face of the state that’s at war in Ukraine “with the
+                      collective West” and has built a water-tight authoritarian system at home that
+                      allows no dissent.</p>
                     <div className="read">
                       <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
                     </div>
@@ -124,9 +124,9 @@ collective West” and has built a water-tight authoritarian system at home that
                   <div className='news-content'>
                     <p id='news-date'>20 March 2024</p>
                     <h2 id='news-h'>Pvt investments rise in India very visible, says ADB</h2>
-                    <p id='news-content'>ADB, under Dasgupta's leadership, aims to increase private investments in 
-India, focusing on clean energy and financial inclusion. Reforms and new
-models like IF-CAP are set to strengthen ADB's role in climate finance.</p>
+                    <p id='news-content'>ADB, under Dasgupta's leadership, aims to increase private investments in
+                      India, focusing on clean energy and financial inclusion. Reforms and new
+                      models like IF-CAP are set to strengthen ADB's role in climate finance.</p>
                     <div className="read">
                       <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
                     </div>
