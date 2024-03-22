@@ -1,6 +1,6 @@
 import React from 'react'
 import '../pages/Home.css'
-import { MyCarousel } from '../component/Carousel'
+//import { MyCarousel } from '../component/Carousel'
 import home1 from '../assets/home1.png'
 import home2 from '../assets/home2.png'
 import home3 from '../assets/home3.png'
@@ -14,12 +14,18 @@ import newsImg6 from '../assets/Rectangle 13041.png'
 import newsImg7 from '../assets/Rectangle 13056.png'
 import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
+import event from '../assets/event-img1.png'
 
 export const Home = () => {
   return (
     <div className='home'>
       <div>
-        <MyCarousel />
+        {/* <MyCarousel /> */}
+        <img
+          className="d-block w-100"
+          src={event}
+          alt="First slide"
+        />
       </div>
 
       <section className='statement'>
