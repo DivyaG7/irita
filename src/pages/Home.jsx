@@ -12,7 +12,7 @@ import newsImg4 from '../assets/Rectangle 13060.png'
 import newsImg5 from '../assets/Rectangle 13038.png'
 import newsImg6 from '../assets/Rectangle 13041.png'
 import newsImg7 from '../assets/Rectangle 13056.png'
-import mediaImg from '../assets/Capture 1.png'
+//import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
 import event from '../assets/event-img1.png'
 
@@ -257,7 +257,7 @@ export const Home = () => {
       </section>
 
 
-      <section className='media-updates'>
+      {/* <section className='media-updates'>
         <div className='row'>
           <div className='col-md-4 media1'>
             <h2 className='mb-5'>Media Updates</h2>
@@ -288,7 +288,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <footer>
         <div className='footer'>

@@ -83,18 +83,18 @@ export const Navbar = ({ onSearch }) => {
               <li className="nav-item">
                 <Link className="nav-link" to="/About" onClick={closeNavbar}>About</Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/Membership" onClick={closeNavbar}>Membership</Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/NewsEvents" onClick={closeNavbar}>News & Events</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/Programmes" onClick={closeNavbar}>Programmes</Link>
               </li>
-              <li className="nav-item1">
+              {/* <li className="nav-item1">
                 <Link className="nav-link" to="/KeyInitiative" onClick={closeNavbar}>Key Initiative</Link>
-              </li>
+              </li> */}
               {/* Add other nav items here */}
             </ul>
           </div>
