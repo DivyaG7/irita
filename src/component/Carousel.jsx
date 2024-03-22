@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
 import image from '../assets/Rectangle 3.png'
+import event from '../assets/event-img1.png'
 
 
 export const MyCarousel = () => {
@@ -9,14 +10,14 @@ export const MyCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={image}
+          src={event}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={image}
+          src={event}
           alt="Second slide"
         />
       </Carousel.Item>
