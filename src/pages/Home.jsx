@@ -11,6 +11,7 @@ import newsImg3 from '../assets/Rectangle 13059.png'
 import newsImg4 from '../assets/Rectangle 13060.png'
 import newsImg5 from '../assets/Rectangle 13038.png'
 import newsImg6 from '../assets/Rectangle 13041.png'
+import newsImg7 from '../assets/Rectangle 13056.png'
 import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
 
@@ -24,22 +25,42 @@ export const Home = () => {
       <section className='statement'>
         <div className='statement-container'>
           <Carousel>
-            <Carousel.Item>
+          <Carousel.Item>
               <div className="row row-bg">
                 {/* Content */}
                 <div className="col-md-6 content">
                   <div className="statement_content">
-                    <p id='statement_date'>18th July 2022</p>
-                    <h2 id='statement_h'>Vice - President</h2>
-                    <p id='statement_content'>We welcome Dr. E. Khalieraj as our Vice President for the vertical - Cyber Security of
-                      the INDO - Russian IT Association.</p>
+                    <p id='statement_date'>18th Febrauary 2022</p>
+                    <h2 id='statement_h'>National Day of Russia</h2>
+                    <p id='statement_content'>Our President Mr. Anirudh Balaji with Mr. Krishnan IAS -  Additional Chief Secretary to
+                      Government - Industries Department & Mr. Gennadii Rogalov - Director of Russian House,
+                      Chennai.</p>
                   </div>
                 </div>
 
                 {/* Image */}
                 <div className="col-md-6">
                   <div className="statement_image zoom-container">
-                    <img src={home3} alt="statement_image" className="img-fluid zoom-effect" />
+                    <img src={home1} alt="statement_image" className="img-fluid zoom-effect" />
+                  </div>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="row row-bg">
+                {/* Content */}
+                <div className="col-md-6 content">
+                  <div className="statement_content">
+                    <p id='statement_date'>18th May 2022</p>
+                    <h2 id='statement_h'>India Russia Friendship</h2>
+                    <p id='statement_content'>Throwback to celebrating the Indian - Russian Friendship!</p>
+                  </div>
+                </div>
+
+                {/* Image */}
+                <div className="col-md-6">
+                  <div className="statement_image zoom-container">
+                    <img src={newsImg7} alt="statement_image" className="img-fluid zoom-effect" />
                   </div>
                 </div>
               </div>
@@ -72,22 +93,23 @@ export const Home = () => {
                 {/* Content */}
                 <div className="col-md-6 content">
                   <div className="statement_content">
-                    <p id='statement_date'>18th Febrauary 2022</p>
-                    <h2 id='statement_h'>National Day of Russia</h2>
-                    <p id='statement_content'>Our President Mr. Anirudh Balaji with Mr. Krishnan IAS -  Additional Chief Secretary to
-                      Government - Industries Department & Mr. Gennadii Rogalov - Director of Russian House,
-                      Chennai.</p>
+                    <p id='statement_date'>18th July 2022</p>
+                    <h2 id='statement_h'>Vice - President</h2>
+                    <p id='statement_content'>We welcome Dr. E. Khalieraj as our Vice President for the vertical - Cyber Security of
+                      the INDO - Russian IT Association.</p>
                   </div>
                 </div>
 
                 {/* Image */}
                 <div className="col-md-6">
                   <div className="statement_image zoom-container">
-                    <img src={home1} alt="statement_image" className="img-fluid zoom-effect" />
+                    <img src={home3} alt="statement_image" className="img-fluid zoom-effect" />
                   </div>
                 </div>
               </div>
             </Carousel.Item>
+            
+            
           </Carousel>
         </div>
       </section>
