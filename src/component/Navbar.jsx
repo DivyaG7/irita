@@ -28,26 +28,8 @@ export const Navbar = ({ onSearch }) => {
   const closeNavbar = () => {
     setCollapsed(true);
   };
-  <div className="row nav-first-row">
-    {/* Logo and Search */}
-    <div className="col-md-6">
-      <Link to='/' >
-        <img src={logo} className="navbar-brand" alt='irita-logo' />
-      </Link>
-    </div>
 
-    {/* What's New */}
-    <div className="col-md-6">
-      <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/Cart">What’s New</Link>
-    </div>
-    {/* Toggler Icon */}
-    <button className="navbar-toggler ml-auto"
-      type="button"
-      onClick={toggleNavbar}>
-      <span className="navbar-toggler-icon"></span>
-    </button>
-
-  </div>
+  
 
   return (
     <>
