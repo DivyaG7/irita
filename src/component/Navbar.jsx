@@ -5,8 +5,7 @@ import logo from '../assets/irita-logo.png'
 // import { useNavigate } from 'react-router-dom';
 
 
-export const Navbar = ({ onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+export const Navbar = () => {
   const [collapsed, setCollapsed] = useState(true);
   // const navigate = useNavigate();
 
