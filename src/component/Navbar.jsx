@@ -8,7 +8,7 @@ import logo from '../assets/irita-logo.png'
 export const Navbar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [collapsed, setCollapsed] = useState(true);
- // const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   // const handleSearch = (e) => {
   //     e.preventDefault();
@@ -28,53 +28,50 @@ export const Navbar = ({ onSearch }) => {
   const closeNavbar = () => {
     setCollapsed(true);
   };
+  <div className="row nav-first-row">
+    {/* Logo and Search */}
+    <div className="col-md-6">
+      <Link to='/' >
+        <img src={logo} className="navbar-brand" alt='irita-logo' />
+      </Link>
+    </div>
 
+    {/* What's New */}
+    <div className="col-md-6">
+      <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/Cart">What’s New</Link>
+    </div>
+    {/* Toggler Icon */}
+    <button className="navbar-toggler ml-auto"
+      type="button"
+      onClick={toggleNavbar}>
+      <span className="navbar-toggler-icon"></span>
+    </button>
+
+  </div>
 
   return (
     <>
       <div className='header-box'></div>
       <nav className="navbar navbar-expand-lg navbar-dark" id='navbar'>
         <div className="container-fluid">
+
           {/* First Row */}
-          <div className="row w-100 nav-first-row">
-            {/* Logo and Search */}
-            <div className="col-md-6 d-flex align-items-center">
-              <Link to='/' >
-                <img src={logo} className="navbar-brand" alt='irita-logo' />
-              </Link>
-            </div>
+          <div className='navbar navbar-light justify-content-between w-100'>
+            <Link to='/' >
+              <img src={logo} className="navbar-brand" alt='irita-logo' />
+            </Link>
 
             {/* What's New */}
-            <div className="col-md-6 d-flex justify-content-end align-items-center small-input">
-              <div className='d-flex justify-content-end align-items-center input1'>
-              <form className="d-flex my-lg-0 my-3">
-                <input
-                  className="form-control me-2"
-                  type="text"
-                  placeholder="Search"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  aria-label="Search"
-                />
-                {/* <button className="btn" type="submit" onClick={closeNavbar}>
-                        Search
-                    </button> */}
-              </form>
-              <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/Cart">What’s New</Link>
-              </div>
+            <div className="whatsNew">
+              <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/">What’s New</Link>
               {/* Toggler Icon */}
               <button className="navbar-toggler ml-auto"
                 type="button"
                 onClick={toggleNavbar}>
                 <span className="navbar-toggler-icon"></span>
               </button>
-
             </div>
-
-
           </div>
-          {/* Second Row */}
-
 
 
           {/* Second Row: Navigation Links (displayed on larger screens) */}
