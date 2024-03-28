@@ -27,7 +27,7 @@ function App() {
           <Route path='/Programmes' element={<Programmes />} />
           <Route path='/KeyInitiative' element={<KeyInitiative />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </Router>
     </div>
   );
