@@ -15,9 +15,9 @@
     padding: 5px;
 }
 
-.nav-first-row{
-    background: white;
-    
+.container-fluid .navbar-light{
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 .container-fluid{
