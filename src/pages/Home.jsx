@@ -31,7 +31,7 @@ export const Home = () => {
       <section className='statement'>
         <div className='statement-container'>
           <Carousel>
-          <Carousel.Item>
+            <Carousel.Item>
               <div className="row row-bg">
                 {/* Content */}
                 <div className="col-md-6 content">
@@ -114,8 +114,8 @@ export const Home = () => {
                 </div>
               </div>
             </Carousel.Item>
-            
-            
+
+
           </Carousel>
         </div>
       </section>
@@ -292,26 +292,16 @@ export const Home = () => {
 
       <footer>
         <div className='footer'>
-          <div className='footer-content '>
+          <div className='footer-content'>
             <p>Copyright policy</p>
             <span className='vertical-line'></span>
             <p>Terms and condition</p>
             <span className='vertical-line'></span>
             <p>Privacy Policy</p>
             <span className='vertical-line'></span>
-            <p>Accessibility Option</p>
-            <span className='vertical-line'></span>
             <p>Help </p>
             <span className='vertical-line'></span>
             <p>Contact Us</p>
-            <span className='vertical-line'></span>
-          </div>
-          <div className='footer-content1'>
-            <p>Content Owned by Embassy of India in Moscow</p>
-            <span className='vertical-line'></span>
-            <p>Visitors: Page last updated : Feb 15, 2024</p>
-            <span className='vertical-line'></span>
-            <p>Working Hours Monday to Friday - 9.00 A.M to 5.30 PM </p>
           </div>
         </div>
       </footer>
