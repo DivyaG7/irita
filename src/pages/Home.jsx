@@ -15,6 +15,7 @@ import newsImg7 from '../assets/Rectangle 13056.png'
 //import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
 import event from '../assets/Rectangle 3.png'
+import { Footer } from '../component/Footer'
 
 export const Home = () => {
   return (
@@ -290,7 +291,7 @@ export const Home = () => {
         </div>
       </section> */}
 
-      
+      <Footer />
 
     </div>
   )

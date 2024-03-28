@@ -6,6 +6,7 @@ import program3 from '../assets/program3.png'
 import program4 from '../assets/program4.png'
 import program5 from '../assets/irita (1) 2.png'
 import { Link } from 'react-router-dom'
+import { Footer } from '../component/Footer'
 
 export const Programmes = () => {
     return (
@@ -104,6 +105,8 @@ export const Programmes = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
 
         </div>
     )

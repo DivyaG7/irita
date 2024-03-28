@@ -4,6 +4,7 @@ import member from '../assets/membership.png'
 import member2 from '../assets/membership-2.png'
 import member3 from '../assets/membership-3.png'
 import member4 from '../assets/membership-4.png'
+import { Footer } from '../component/Footer'
 // import { Carousel } from 'react-bootstrap'
 // import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'; 
 
@@ -156,6 +157,7 @@ export const Membership = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

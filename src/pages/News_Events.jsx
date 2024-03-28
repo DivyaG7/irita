@@ -2,6 +2,7 @@ import React from 'react'
 import eventImg1 from '../assets/event-img1.png'
 import '../pages/News.css'
 import { Link } from 'react-router-dom'
+import { Footer } from '../component/Footer'
 
 export const NewsEvents = () => {
   return (
@@ -63,6 +64,7 @@ export const NewsEvents = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
 
   )
