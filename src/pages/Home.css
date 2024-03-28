@@ -229,35 +229,3 @@
 .x-box1 img{
     margin-left: -20px;
 }
-.footer{
-    background: #DF2D2D;
-    padding: 2rem;
-    color: #FFFFFF;
-}
-
-.footer{
-    background: #DF2D2D;
-    padding: 2rem;
-    color: #FFFFFF;
-}
-
-.footer-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-content1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.vertical-line{
-    box-sizing: border-box;
-    border-right: 2px solid #FFFFFF;
-    min-height: 20px;
-    margin-top: -13px;
-    margin-left: .5rem;
-    margin-right: .5rem;
-}

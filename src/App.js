@@ -9,6 +9,7 @@ import { Programmes } from './pages/Programmes';
 import { KeyInitiative } from './pages/Key_Initiative';
 import { NewsEvents } from './pages/News_Events';
 import { Speeches } from './component/Speeches';
+import { Footer } from './component/Footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/Programmes' element={<Programmes />} />
           <Route path='/KeyInitiative' element={<KeyInitiative />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
