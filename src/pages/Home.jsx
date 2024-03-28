@@ -14,7 +14,7 @@ import newsImg6 from '../assets/Rectangle 13041.png'
 import newsImg7 from '../assets/Rectangle 13056.png'
 //import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
-import event from '../assets/event-img1.png'
+import event from '../assets/Rectangle 3.png'
 
 export const Home = () => {
   return (
