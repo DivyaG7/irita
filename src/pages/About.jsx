@@ -1,9 +1,11 @@
 import React from 'react';
 import '../pages/About.css'
 import aboutImg from '../assets/About-img.png'
+import { Footer } from '../component/Footer';
 
 export const About = () => {
   return (
+    <>
     <div className="container mt-5 pt-4">
       <div className='About'>
         <h1 className="mb-5">About IRITA</h1>
@@ -18,5 +20,7 @@ export const About = () => {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
