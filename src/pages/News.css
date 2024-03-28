@@ -1,3 +1,7 @@
+.news-event{
+    min-height: 100vh;
+}
+
 .news-event .bg {
     background: #063B6D;
     display: flex;
