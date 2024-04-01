@@ -44,12 +44,12 @@ export const Navbar = () => {
 
             {/* Heading */}
             <div className="navbar-heading">
-              <h3>INDO-RUSSION IT ASSOCIATION</h3>
+              <h3>INDO-RUSSIAN IT ASSOCIATION</h3>
             </div>
 
             {/* What's New */}
             <div className="whatsNew">
-              <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white' }} aria-current="page" onClick={closeNavbar} to="/">What’s New</Link>
+              <Link className="btn mx-lg-2 me-2 new-button" style={{ background: '#D94539', borderRadius: '5px', color: 'white', visibility: 'hidden' }} aria-current="page" onClick={closeNavbar} to="/">What’s New</Link>
               {/* Toggler Icon */}
               <button className="navbar-toggler ml-auto"
                 type="button"
