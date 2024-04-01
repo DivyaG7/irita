@@ -17,7 +17,7 @@ export const Programmes = () => {
                     <div className='col-md-8'>
                         <div className='left-program'>
                             <p>01 March, 2023</p>
-                            <h5>Workshop on cyber crime against women held</h5>
+                            <h5>Workshop on cyber crime against women</h5>
                             <div className='row left-content pt-4'>
                                 <div className='col-md-4 pro-img mb-3'>
                                     <img src={program1} alt='img' className="img-fluid" />

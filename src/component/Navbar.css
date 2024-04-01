@@ -11,7 +11,11 @@
 }
 
 .navbar-heading{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.navbar-heading h1{
+    font-size: 50px;
 }
 
 .header-box{
