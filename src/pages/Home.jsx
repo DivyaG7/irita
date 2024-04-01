@@ -1,6 +1,6 @@
 import React from 'react'
 import '../pages/Home.css'
-//import { MyCarousel } from '../component/Carousel'
+import { MyCarousel } from '../component/Carousel'
 import home1 from '../assets/home1.png'
 import home2 from '../assets/home2.png'
 import home3 from '../assets/home3.png'
@@ -9,24 +9,24 @@ import newsImg1 from '../assets/Rectangle 13057.png'
 import newsImg2 from '../assets/Rectangle 13058.png'
 import newsImg3 from '../assets/Rectangle 13059.png'
 import newsImg4 from '../assets/Rectangle 13060.png'
-import newsImg5 from '../assets/Rectangle 13038.png'
-import newsImg6 from '../assets/Rectangle 13041.png'
+//import newsImg5 from '../assets/Rectangle 13038.png'
+//import newsImg6 from '../assets/Rectangle 13041.png'
 import newsImg7 from '../assets/Rectangle 13056.png'
 //import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
-import event from '../assets/Rectangle 3.png'
+//import event from '../assets/Rectangle 3.png'
 import { Footer } from '../component/Footer'
 
 export const Home = () => {
   return (
     <div className='home'>
       <div>
-        {/* <MyCarousel /> */}
-        <img
+        <MyCarousel />
+        {/* <img
           className="d-block w-100"
           src={event}
           alt="First slide"
-        />
+        /> */}
       </div>
 
       <section className='statement'>
@@ -38,10 +38,12 @@ export const Home = () => {
                 <div className="col-md-6 content">
                   <div className="statement_content">
                     <p id='statement_date'>18th Febrauary 2022</p>
-                    <h2 id='statement_h'>National Day of Russia</h2>
-                    <p id='statement_content'>Our President Mr. Anirudh Balaji with Mr. Krishnan IAS -  Additional Chief Secretary to
-                      Government - Industries Department & Mr. Gennadii Rogalov - Director of Russian House,
-                      Chennai.</p>
+                    <h2 id='statement_h'>Irita</h2>
+                    <p id='statement_content'>Was Invited by the Consul General of the Russian Federation in South India for the
+                      celebration of National Day of Russia.
+                      In the Picture from the right Consul General, H.E. Mr. Oleg N.Avdeev, Mr.Anirudh Balaji
+                      President Indo Russian IT Association, and Mr.Basha Director Indo Russian IT Association
+                      (I-RITA).</p>
                   </div>
                 </div>
 
@@ -79,11 +81,9 @@ export const Home = () => {
                   <div className="statement_content">
                     <p id='statement_date'>19th June 2022</p>
                     <h2 id='statement_h'>National Day of Russia</h2>
-                    <p id='statement_content'>Was Invited by the Consul General of the Russian Federation in South India for the
-                      celebration of National Day of Russia.
-                      In the Picture from the right Consul General, H.E. Mr. Oleg N.Avdeev, Mr.Anirudh Balaji
-                      President Indo Russian IT Association, and Mr.Basha Director Indo Russian IT Association
-                      (I-RITA).</p>
+                    <p id='statement_content'>Our President Mr. Anirudh Balaji with Mr. Krishnan IAS -  Additional Chief Secretary to
+                      Government - Industries Department & Mr. Gennadii Rogalov - Director of Russian House,
+                      Chennai.</p>
                   </div>
                 </div>
 
@@ -124,7 +124,7 @@ export const Home = () => {
       <section className='news'>
 
         <div className="row news-screen">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <h1>Latest news</h1>
             <div className='horizontal-line'></div>
             <div className='mt-4 mb-4'>
@@ -217,7 +217,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <div className='aside-content'>
               <div className='right-heading'>
                 <h3>Briefings</h3>
@@ -252,7 +252,7 @@ export const Home = () => {
 
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
       </section>
