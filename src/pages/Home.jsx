@@ -143,7 +143,7 @@ export const Home = () => {
                       the top postings for an Indian diplomat and Kumar will be responsible for
                       steering India’s relations with Russia</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://www.hindustantimes.com/india-news/mea-appoints-vinay-kumar-as-new-ambassador-to-russia-101710828074517.html'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export const Home = () => {
                       collective West” and has built a water-tight authoritarian system at home that
                       allows no dissent.</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://www.thehindu.com/news/international/vladimir-putin-reign-of-the-patriarch/article67963647.ece'><span>&rarr;</span>(read...)</Link>
                     </div>
 
                   </div>
@@ -187,7 +187,7 @@ export const Home = () => {
                     <h2 id='news-h'>From just 8% in 2000, share of women CAs now 30%</h2>
                     <p id='news-content'>A recent report has revealed a significant  rise</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://timesofindia.indiatimes.com/india/from-just-8-in-2000-share-of-women-cas-now-30/articleshow/108627341.cms'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@ export const Home = () => {
                       India, focusing on clean energy and financial inclusion. Reforms and new
                       models like IF-CAP are set to strengthen ADB's role in climate finance.</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to=''><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://m.economictimes.com/news/economy/indicators/pvt-investments-rise-in-india-very-visible-says-adb/articleshow/108627101.cms'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>

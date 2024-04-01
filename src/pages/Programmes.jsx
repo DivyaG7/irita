@@ -2,9 +2,9 @@ import React from 'react'
 import '../pages/Program.css'
 import program1 from '../assets/program1.png'
 import program2 from '../assets/program2.png'
-import program3 from '../assets/program3.png'
-import program4 from '../assets/program4.png'
-import program5 from '../assets/irita (1) 2.png'
+//import program3 from '../assets/program3.png'
+//import program4 from '../assets/program4.png'
+//import program5 from '../assets/irita (1) 2.png'
 import { Link } from 'react-router-dom'
 import { Footer } from '../component/Footer'
 
@@ -33,7 +33,8 @@ export const Programmes = () => {
 
                         <div className='left-program mt-5'>
                             <p>28 Febrauary , 2023</p>
-                            <h5>Cyber Crime Against Women Summit ‘23</h5>
+                            <Link to='https://c20.amma.org/cyber-crime-against-women-summit-23/' ><h5>Cyber Crime Against Women Summit ‘23</h5></Link>
+                            
                             <div className='row left-content pt-4'>
                                 <div className='col-md-4 pro-img mb-3'>
                                     <img src={program2} alt='img' className="img-fluid" />
@@ -45,7 +46,7 @@ export const Programmes = () => {
                             </div>
                         </div>
 
-                        <div className='left-program mt-5 women-event'>
+                        {/* <div className='left-program mt-5 women-event'>
                             <div className='row left-content pt-4'>
                                 <div className='col-md-4 pro-img mb-3 women-bg'>
                                     <img src={program5} alt='img' className="img-fluid" />
@@ -55,13 +56,13 @@ export const Programmes = () => {
                                     <p id='second-pro'>March - 12 (2024)</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
 
                     <div className='col-md-4 pe-4 pb-5'>
                         <div className='row gap-5'>
-                            <div className='col-md-12 right-program'>
+                            {/* <div className='col-md-12 right-program'>
                                 <div className='right-pro'>
                                     <h5 className='ps-3 pt-1 pb-1'>Recent posts</h5>
                                 </div>
@@ -73,7 +74,7 @@ export const Programmes = () => {
                                         Trade Service </p>
                                     <img src={program4} alt='img' className="img-fluid" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='col-md-12 bottom-links'>
                                 <div className='right-links-heading'>
                                     <h5 className='ps-3 pt-1 pb-1'>Quick Links</h5>
@@ -84,7 +85,7 @@ export const Programmes = () => {
                                             as the new president of Indo-Russian IT
                                             Association</Link>
                                         <div className="read">
-                                            <Link className="text-decoration-none links" to=''><span>&rarr;</span>(read...)</Link>
+                                            <Link className="text-decoration-none links" to='https://www.business-standard.com/content/press-releases-ani/anirudh-balaji-of-horizon-group-appointed-as-the-new-president-of-indo-russian-it-association-121081900891_1.html'><span>&rarr;</span>(read...)</Link>
                                         </div>
                                     </div>
 
@@ -98,7 +99,7 @@ export const Programmes = () => {
                                     <div className='pt-3'>
                                         <Link to='' className='text-decoration-none links'>International Womens day - 2024</Link>
                                         <div className="read">
-                                            <Link className="text-decoration-none links" to=''><span>&rarr;</span>(read...)</Link>
+                                            <Link className="text-decoration-none links" to='https://c20.amma.org/cyber-crime-against-women-summit-23/'><span>&rarr;</span>(read...)</Link>
                                         </div>
                                     </div>
                                 </div>

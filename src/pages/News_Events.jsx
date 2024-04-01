@@ -45,22 +45,13 @@ export const NewsEvents = () => {
             <div className='col-md-6 six p-4'>
               <h1 className='mb-3'>Press Release</h1>
               <div className='press'>
-                <Link to='/Speeches' className='link'>Anirudh Balaji of Horizon Group appointed
-                  as the new president of Indo-Russian IT
-                  Association</Link>
-                <p>at the Kremlin. On the Russian side, the meeting was attended by
-                  Foreign Minister Sergei Lavrov, Deputy Prime Minister and Chair of the
-                  Russian side </p>
+                <Link to='https://www.business-standard.com/content/press-releases-ani/anirudh-balaji-of-horizon-group-appointed-as-the-new-president-of-indo-russian-it-association-121081900891_1.html' className='link'>Business Standard</Link>
+                <p>From L-R: Oleg N. Avdeev, Consul General - Russian Federation in SI, Anirudh Balaji, President, Indo-Russian IT Association, Gennadii A Rogalev, Director, RCSC, Chennai</p>
               </div>
               <div className='hr'></div>
               <div className='press'>
-                <Link to='/' className='link'>Russian President Vladimir Putin met with
-                  Minister of External Affairs of India Dr S
-                  Jaishankar </Link>
-                <p>
-                  at the Kremlin. On the Russian side, the meeting was attended by
-                  Foreign Minister Sergei Lavrov, Deputy Prime Minister and Chair of the
-                  Russian side </p>
+                <Link to='https://aninews.in/topic/indo-russian-it-association/' className='link'>Ani - South Asian Leading Multimedia News Agency</Link>
+                <p>Chennai (Tamil Nadu) [India], August 19 (ANI/NewsVoir): Anirudh Balaji, Founder and CEO of Horizon Group, has been elected as the new President of the Indo-Russian IT Association (IRITA), a first-of-its-kind forum for the promotion of the IT industry of the two countries.</p>
               </div>
             </div>
           </div>
