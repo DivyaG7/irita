@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/About.css'
-import aboutImg from '../assets/About-img.png'
+import aboutImg from '../assets//about.jpg'
 import { Footer } from '../component/Footer';
 
 export const About = () => {

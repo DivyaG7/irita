@@ -10,6 +10,10 @@
     overflow: hidden;
 }
 
+.navbar-heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .header-box{
     background: linear-gradient(90deg, #3C58A1 1.67%, #D94539 100%);
     padding: 5px;

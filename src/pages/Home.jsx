@@ -11,7 +11,7 @@ import newsImg3 from '../assets/Rectangle 13059.png'
 import newsImg4 from '../assets/Rectangle 13060.png'
 //import newsImg5 from '../assets/Rectangle 13038.png'
 //import newsImg6 from '../assets/Rectangle 13041.png'
-import newsImg7 from '../assets/Rectangle 13056.png'
+import newsImg7 from '../assets/friendship.jpg'
 //import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
 //import event from '../assets/Rectangle 3.png'
@@ -60,7 +60,7 @@ export const Home = () => {
                 {/* Content */}
                 <div className="col-md-6 content">
                   <div className="statement_content">
-                    <p id='statement_date'>18th May 2022</p>
+                    <p id='statement_date'>18th May 2023</p>
                     <h2 id='statement_h'>India Russia Friendship</h2>
                     <p id='statement_content'>Throwback to celebrating the Indian - Russian Friendship!</p>
                   </div>
@@ -122,12 +122,53 @@ export const Home = () => {
       </section>
 
       <section className='news'>
-
         <div className="row news-screen">
           <div className="col-md-12">
             <h1>Latest news</h1>
             <div className='horizontal-line'></div>
             <div className='mt-4 mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg3} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>20 March 2024</p>
+                    <h2 id='news-h'>From just 8% in 2000, share of women CAs now 30%</h2>
+                    <p id='news-content'>A recent report has revealed a significant  rise</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://timesofindia.indiatimes.com/india/from-just-8-in-2000-share-of-women-cas-now-30/articleshow/108627341.cms'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg4} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>20 March 2024</p>
+                    <h2 id='news-h'>Pvt investments rise in India very visible, says ADB</h2>
+                    <p id='news-content'>ADB, under Dasgupta's leadership, aims to increase private investments in
+                      India, focusing on clean energy and financial inclusion. Reforms and new
+                      models like IF-CAP are set to strengthen ADB's role in climate finance.</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://m.economictimes.com/news/economy/indicators/pvt-investments-rise-in-india-very-visible-says-adb/articleshow/108627101.cms'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
@@ -169,48 +210,6 @@ export const Home = () => {
                       <Link className="text-decoration-none" to='https://www.thehindu.com/news/international/vladimir-putin-reign-of-the-patriarch/article67963647.ece'><span>&rarr;</span>(read...)</Link>
                     </div>
 
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg3} alt='newsImage' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>20 March 2024</p>
-                    <h2 id='news-h'>From just 8% in 2000, share of women CAs now 30%</h2>
-                    <p id='news-content'>A recent report has revealed a significant  rise</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://timesofindia.indiatimes.com/india/from-just-8-in-2000-share-of-women-cas-now-30/articleshow/108627341.cms'><span>&rarr;</span>(read...)</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg4} alt='newsImage' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>20 March 2024</p>
-                    <h2 id='news-h'>Pvt investments rise in India very visible, says ADB</h2>
-                    <p id='news-content'>ADB, under Dasgupta's leadership, aims to increase private investments in
-                      India, focusing on clean energy and financial inclusion. Reforms and new
-                      models like IF-CAP are set to strengthen ADB's role in climate finance.</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://m.economictimes.com/news/economy/indicators/pvt-investments-rise-in-india-very-visible-says-adb/articleshow/108627101.cms'><span>&rarr;</span>(read...)</Link>
-                    </div>
                   </div>
                 </div>
               </div>

@@ -44,7 +44,7 @@ export const Navbar = () => {
 
             {/* Heading */}
             <div className="navbar-heading">
-              <h3>Indo-Russian IT Association</h3>
+              <h3>INDO-RUSSION IT ASSOCIATION</h3>
             </div>
 
             {/* What's New */}

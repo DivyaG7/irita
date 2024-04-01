@@ -13,7 +13,7 @@ export const NewsEvents = () => {
             <div className='col-md-6 bg'>
               <p id='event-date'>19th August 2021</p>
               <h1 id='event-h'>President of IRITA</h1>
-              <p id='event-content'>Anirudh Balaji of Horizon Group appointed
+              <p id='event-content'>Anirudh Balaji Executive Director of National Cyber Security Research Council (NCSRC) appointed
                 as the new president of Indo-Russian IT
                 Association.</p>
             </div>
