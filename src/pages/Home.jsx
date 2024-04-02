@@ -5,8 +5,8 @@ import home1 from '../assets/home1.png'
 import home2 from '../assets/home2.png'
 import home3 from '../assets/home3.png'
 import { Link } from 'react-router-dom'
-import newsImg1 from '../assets/Rectangle 13057.png'
-import newsImg2 from '../assets/Rectangle 13058.png'
+import newsImg1 from '../assets/news-2.jpg'
+import newsImg2 from '../assets/news-1.jpg'
 import newsImg3 from '../assets/Rectangle 13059.png'
 import newsImg4 from '../assets/Rectangle 13060.png'
 //import newsImg5 from '../assets/Rectangle 13038.png'
@@ -130,6 +130,46 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
+                    <img src={newsImg1} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>2 April 2024 </p>
+                    <h2 id='news-h'>Putin’s Ex-Classmate Nominated to Head Russian Supreme Court</h2>
+                    <p id='news-content'>President Vladimir Putin’s former university classmate has been nominated as the sole candidate to head Russia’s Supreme Court after the recent death of its longtime chairman, the legal news outlet Rapsi reported Monday.</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://www.themoscowtimes.com/2024/04/01/putins-ex-classmate-nominated-to-head-russian-supreme-court-a84697'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg2} alt='newsImage' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>1 April 2024</p>
+                    <h2 id='news-h'>Good governance in India visible to world, says Jaishankar as he cites Micron CEO's experience</h2>
+                    <p id='news-content'>Micron led by CEO Sanjay Mehrotra has committed to invest over USD 800 million in Gujarat's semiconductor plant of the over USD 2.75 billion total cost. </p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://indianexpress.com/article/india/micron-ceo-jaishankar-mea-pm-modi-gujarat-semiconductor-plant-investors-9245463/'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mt-4 mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
                     <img src={newsImg3} alt='newsImage' />
                   </div>
                 </div>
@@ -167,53 +207,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg1} alt='newsImage' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>19 March 2024</p>
-                    <h2 id='news-h'>MEA appoints Vinay Kumar as new ambassador in
-                      Russia</h2>
-                    <p id='news-content'>Moscow, along with Washington, London, Tokyo and Canberra, is among
-                      the top postings for an Indian diplomat and Kumar will be responsible for
-                      steering India’s relations with Russia</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://www.hindustantimes.com/india-news/mea-appoints-vinay-kumar-as-new-ambassador-to-russia-101710828074517.html'><span>&rarr;</span>(read...)</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg2} alt='newsImage' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>18 March 2024</p>
-                    <h2 id='news-h'>Vladimir Putin | Reign of the patriarch</h2>
-                    <p id='news-content'>If in the late 1990s, Vladimir Putin was seen as the man who could fix Russia’s
-                      problems, now he is the face of the state that’s at war in Ukraine “with the
-                      collective West” and has built a water-tight authoritarian system at home that
-                      allows no dissent.</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://www.thehindu.com/news/international/vladimir-putin-reign-of-the-patriarch/article67963647.ece'><span>&rarr;</span>(read...)</Link>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           {/* <div className="col-md-6">

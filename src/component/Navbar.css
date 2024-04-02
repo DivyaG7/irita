@@ -11,11 +11,18 @@
 }
 
 .navbar-heading{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: "Roboto", sans-serif;
 }
+
 .navbar-heading h1{
-    font-size: 50px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 993px) {
+    .navbar-heading h1{
+        font-size: 40px;
+        margin-left: 25px;
+    }
 }
 
 .header-box{
@@ -62,7 +69,6 @@
     padding: .5rem 1.5rem;
 }
 
-.nav-item
 
 .new-button{
     height: 50px;
@@ -73,7 +79,6 @@
 
 .navbar-toggler{
     background: #D94539 !important;
-    
 }
 
 @media screen and (max-width: 767px){
