@@ -18,12 +18,7 @@
     font-size: 30px;
 }
 
-@media screen and (max-width: 993px) {
-    .navbar-heading h1{
-        font-size: 40px;
-        margin-left: 25px;
-    }
-}
+
 
 .header-box{
     background: linear-gradient(90deg, #3C58A1 1.67%, #D94539 100%);
