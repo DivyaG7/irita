@@ -14,7 +14,7 @@ import newsImg7 from '../assets/friendship.jpg'
 import { Carousel } from 'react-bootstrap'
 //import event from '../assets/Rectangle 3.png'
 import { Footer } from '../component/Footer'
-// import video2 from '../../src/Irita launch (1).mp4'
+import video2 from '../../src/pages/Irita launch.mp4'
 
 export const Home = () => {
   return (
@@ -281,10 +281,10 @@ export const Home = () => {
         </div>
       </section> */}
 
-      {/* <video width="100%" height="440" className='mb-4' controls>
+      <video width="100%" height="440" className='mb-4' controls>
         <source src={video2} type="video/mp4" />
         Your browser does not support the video tag.
-      </video> */}
+      </video>
 
       <Footer />
 
