@@ -11,7 +11,7 @@ export const NewsEvents = () => {
         <div className='event-container'>
           <div className='row'>
             <div className='col-md-6 bg'>
-              <p id='event-date'>19th August 2021</p>
+              {/* <p id='event-date'>19th August 2021</p> */}
               <h1 id='event-h'>President of IRITA</h1>
               <p id='event-content'>Anirudh Balaji of Executive Director - National Cyber Security Research Council (NCSRC) appointed
                 as the new president of Indo-Russian IT
