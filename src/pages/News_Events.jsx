@@ -24,14 +24,14 @@ export const NewsEvents = () => {
             </div>
             <div className='col-md-6 third'>
               <h1>Speeches and published materials</h1>
-              <p>Signed agreements which would take the
+              {/* <p>Signed agreements which would take the
                 Kudankulam project forward.
-              </p>
+              </p> */}
             </div>
             <div className='col-md-6 four'>
               <h1>News and Notices</h1>
-              <p>Signed agreements which would take the
-                Kudankulam project forward.</p>
+              {/* <p>Signed agreements which would take the
+                Kudankulam project forward.</p> */}
             </div>
             <div className='col-md-6 five pt-4 pb-4'>
               <div className='hr mb-4'></div>
