@@ -7,6 +7,7 @@ import president from '../assets/President.png'
 import partner from '../assets/partnership.png'
 //import video2 from '../../src/Irita launch.mp4'
 import banner from '../../src/assets/banner.png'
+import '../component/carousel.css'
 
 
 export const MyCarousel = () => {

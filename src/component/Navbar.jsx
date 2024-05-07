@@ -28,10 +28,10 @@ export const Navbar = () => {
     setCollapsed(true);
   };
 
-  const handleButtonClick = () => {
-    const nextSection = document.getElementById('about');
-    nextSection.scrollIntoView({ behavior: 'smooth' });
-  };
+  // const handleButtonClick = () => {
+  //   const nextSection = document.getElementById('about');
+  //   nextSection.scrollIntoView({ behavior: 'smooth' });
+  // };
 
   
 
@@ -69,7 +69,7 @@ export const Navbar = () => {
           <div className={`collapse navbar-collapse ${!collapsed && 'show'}`} id='navbarSupportedContent'>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" onClick={handleButtonClick}>About</Link>
+                <Link className="nav-link" to="/" >About</Link>
               </li>
               {/* <li className="nav-item">
                 <Link className="nav-link" to="/Membership" onClick={closeNavbar}>Membership</Link>

@@ -32,7 +32,7 @@ export const Home = () => {
 
       <section className='statement'>
         <div className='statement-container'>
-          <Carousel>
+          <Carousel interval={null}>
             <Carousel.Item>
               <div className="row row-bg">
                 {/* Content */}

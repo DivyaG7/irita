@@ -151,7 +151,7 @@ export const Programmes = () => {
                                 alt="event-img" />
                             <img src={event5} class="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event8} class="w-100 shadow-1-strong mb-4" style={{height: '320px'}}
+                            <img src={event8} class="w-100 shadow-1-strong mb-4" id='event-img'
                                 alt="event-img" />
                         </div>
 

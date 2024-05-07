@@ -1,0 +1,5 @@
+/* Hide the default carousel control arrows */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important; /* Use !important to ensure the styles override any other conflicting styles */
+}
