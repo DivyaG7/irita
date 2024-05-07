@@ -162,6 +162,7 @@ export const Programmes = () => {
                                 alt="event-img" />
                             {/* <img src={event9} class="w-100 shadow-1-strong mb-4"
                                 alt="event-img" /> */}
+                                
                         </div>
                     </div>
 
