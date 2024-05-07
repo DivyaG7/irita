@@ -294,7 +294,7 @@ export const Home = () => {
 
 
 
-      <div className="container mt-5 pt-4" >
+      <div className="p-5 mt-5 pt-4" >
         <div className='About'>
           <h1 className="mb-5">About IRITA</h1>
           <p className='mb-4'>
