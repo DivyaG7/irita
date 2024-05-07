@@ -1,111 +1,170 @@
 import React from 'react'
 import '../pages/Program.css'
-import program1 from '../assets/program1.png'
-import program2 from '../assets/program2.png'
-//import program3 from '../assets/program3.png'
-//import program4 from '../assets/program4.png'
-//import program5 from '../assets/irita (1) 2.png'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import { Footer } from '../component/Footer'
+import pro1 from '../assets/pro-1.png'
+import pro2 from '../assets/pro-2.png'
+import pro3 from '../assets/pro-3.png'
+import pro4 from '../assets/pro-4.png'
+import pro5 from '../assets/pro-5.png'
+import pro6 from '../assets/pro-6.png'
+import pro7 from '../assets/pro-7.png'
+import event1 from '../assets/event1.png'
+import event2 from '../assets/event2.png'
+import event3 from '../assets/event3.png'
+import event4 from '../assets/event4.png'
+import event5 from '../assets/event5.png'
+import event6 from '../assets/event6.png'
+import event7 from '../assets/event7.png'
+import event8 from '../assets/event8.png'
+//import event9 from '../assets/event9.png'
 
 export const Programmes = () => {
+
+    const handleButtonClick = () => {
+        const nextSection = document.getElementById('gallery');
+        nextSection.scrollIntoView({ behavior: 'smooth' });
+      };
+
     return (
         <>
             <div className='programmes'>
-                <div className='row'>
-                    <h2>Programmes</h2>
-                    <div className='col-md-8'>
-                        <div className='left-program'>
-                            <p>01 March, 2023</p>
-                            <h5>Workshop on cyber crime against women</h5>
-                            <div className='row left-content pt-4'>
-                                <div className='col-md-4 pro-img mb-3'>
-                                    <img src={program1} alt='img' className="img-fluid" />
-                                </div>
-                                <div className='col-md-8 p-left'>
-                                    <p id='first-pro'>Chennai: State minister of information technology T Mano thangaraj inaugrated a
-                                        workshop against on cyber crime against women in Indo Russian IT Association,
-                                        Teynampet.</p>
-                                    <p id='second-pro'>Initiative by the National Cyber Security Research Council supported by the Indo-Russian IT association.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='left-program mt-5'>
-                            <p>28 Febrauary , 2023</p>
-                            <Link to='https://c20.amma.org/cyber-crime-against-women-summit-23/' ><h5>Cyber Crime Against Women Summit ‘23</h5></Link>
-                            
-                            <div className='row left-content pt-4'>
-                                <div className='col-md-4 pro-img mb-3'>
-                                    <img src={program2} alt='img' className="img-fluid" />
-                                </div>
-                                <div className='col-md-8 p-left'>
-                                    <p id='first-pro'>The Cyber Crime Against Women Summit ’23 was an event organized by C20 Amrita Vishwa Vidyapeetham on 28th February 2023, in association with the Government of Tamil Nadu and the Tamil Nadu State Commission for Women, an initiative by the National Cyber Security Research Council supported by the Indo-Russian IT association. </p>
-                                    <p id='second-pro'>Initiative by the National Cyber Security Research Council supported by the Indo-Russian IT association.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <div className='left-program mt-5 women-event'>
-                            <div className='row left-content pt-4'>
-                                <div className='col-md-4 pro-img mb-3 women-bg'>
-                                    <img src={program5} alt='img' className="img-fluid" />
-                                </div>
-                                <div className='col-md-8 p-left'>
-                                    <Link to='' id='first-pro' className='women-links'>International Womens day - 2024</Link>
-                                    <p id='second-pro'>March - 12 (2024)</p>
-                                </div>
-                            </div>
-                        </div> */}
-
+                <div className='program-bg p-5'>
+                    <div className='d-flex p-5 text-white mt-5 mb-5' style={{ flexDirection: 'column', textAlign: 'left' }}>
+                        <h3 style={{ fontWeight: 'normal' }}>PROGRAMME</h3>
+                        <h1 className='mb-5 text-white' style={{ fontSize: '80px' }}>HIGHLIGHTS</h1>
+                        <p className='mb-4 text-white' style={{ fontWeight: '300', fontSize: '20px' }}>a surprisingly informal and lightly unexpected startup conference</p>
+                        <button style={{ width: '150px', border: 'none', borderRadius: '20px', color: 'white', padding: '.5rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }} onClick={handleButtonClick}>KNOW MORE</button>
                     </div>
+                </div>
 
-                    <div className='col-md-4 pe-4 pb-5'>
-                        <div className='row gap-5'>
-                            {/* <div className='col-md-12 right-program'>
-                                <div className='right-pro'>
-                                    <h5 className='ps-3 pt-1 pb-1'>Recent posts</h5>
+                <div className='program-area'>
+                    <div className='row'>
+                        <div className='col-md-10 col-10 p-5 mt-5' style={{ textAlign: 'left' }}>
+                            <h1 style={{ fontSize: '50px', fontWeight: '300', color: 'rgba(62, 88, 160, 1)' }}>WHY</h1>
+                            <h1 style={{ fontSize: '50px', color: 'rgba(237, 28, 46, 1)', fontWeight: 800 }}><span style={{ fontWeight: '300', color: 'rgba(62, 88, 160, 1)' }}>PARTNER</span> IRITA</h1>
+                            <div className='row mt-5 pt-5'>
+                                <div className='col-md-4'>
+                                    <h2>Longstanding ties</h2>
+                                    <p className='mt-4'>In <br></br><span style={{ color: 'rgba(237, 28, 46, 1)' }}>technology and innovation</span><br></br> between INDIA and RUSSIA.<br></br> Platform for <span style={{ color: 'rgba(237, 28, 46, 1)' }}>intellectual exchange</span> and <br></br><span style={{ color: 'rgba(237, 28, 46, 1)' }}>collaboration</span>.</p>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                    <button className='mt-4' style={{ width: '200px', border: 'none', borderRadius: '20px', color: 'white', padding: '.8rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }}>EXPLORE GALLERY</button>
                                 </div>
-                                <div className='right-pro-content'>
-                                    <p className='mt-2'> The U.S. Department of Commerce, International
-                                        Trade Service </p>
-                                    <img src={program3} alt='img' className="img-fluid" />
-                                    <p className='mt-2'> The U.S. Department of Commerce, International
-                                        Trade Service </p>
-                                    <img src={program4} alt='img' className="img-fluid" />
+                                <div className='col-md-4'>
+                                    <img src={pro1} alt='program-img' className='img-fluid' />
+                                    <h5 className='mt-4'>PRESIDENT OF IRITA</h5>
+                                    <p className='mt-4'>Have you ever wondered why some brands become a household name in india</p>
                                 </div>
-                            </div> */}
-                            <div className='col-md-12 bottom-links'>
-                                <div className='right-links-heading'>
-                                    <h5 className='ps-3 pt-1 pb-1'>Quick Links</h5>
-                                </div>
-                                <div className='right-links'>
-                                    <div className='pt-1'>
-                                        <Link to='/speeches' className='text-decoration-none links'>Anirudh Balaji of Horizon Group appointed
-                                            as the new president of Indo-Russian IT
-                                            Association</Link>
-                                        <div className="read">
-                                            <Link className="text-decoration-none links" to='https://www.business-standard.com/content/press-releases-ani/anirudh-balaji-of-horizon-group-appointed-as-the-new-president-of-indo-russian-it-association-121081900891_1.html'><span>&rarr;</span>(read...)</Link>
-                                        </div>
-                                    </div>
-
-                                    <div className='pt-3'>
-                                        <Link to='' className='text-decoration-none links'>Russian President Vladimir Putin met with Minister of External Affairs of India Dr S Jaishankar</Link>
-                                        <div className="read">
-                                            <Link className="text-decoration-none links" to=''><span>&rarr;</span>(read...)</Link>
-                                        </div>
-                                    </div>
-
-                                    <div className='pt-3'>
-                                        <Link to='' className='text-decoration-none links'>International Womens day - 2024</Link>
-                                        <div className="read">
-                                            <Link className="text-decoration-none links" to='https://c20.amma.org/cyber-crime-against-women-summit-23/'><span>&rarr;</span>(read...)</Link>
-                                        </div>
-                                    </div>
+                                <div className='col-md-4'>
+                                    <img src={pro2} alt='program-img' className='img-fluid' />
+                                    <h5 className='mt-4'>CYBER SECURITY SUMMIT AGAINST WOMEN</h5>
+                                    <p className='mt-4'>Have you ever wondered why some brands become a household name in india</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className='col-md-2 col-2'>
+                            <img src={pro3} alt='program-img' className='img-fluid' />
                         </div>
                     </div>
+                </div>
+
+                <div className=''>
+                    <div className='row'>
+                        <div className='col-md-2 d-flex  me-5' style={{ flexDirection: 'column' }}>
+                            <h5 style={{ position: 'absolute', left: '0', marginTop: '50px', transform: 'rotate(-90deg)' }}>
+                                <span>I</span>
+                                <span>R</span>
+                                <span>I</span>
+                                <span>T</span>
+                                <span>A</span>
+                            </h5>
+                            <img src={pro5} alt='program-img' className='img-fluid' style={{ width: '50px', marginTop: '100px' }} />
+                            <img src={pro4} alt='program-img' className='img-fluid' style={{ width: '50px' }} />
+                            <h5 style={{ position: 'absolute', left: '0', marginTop: '350px', marginLeft: '-20PX', transform: 'rotate(-90deg)' }}>
+                                <span>F</span>
+                                <span>o</span>
+                                <span>l</span>
+                                <span>l</span>
+                                <span>o</span>
+                                <span>w</span>
+                                <span> </span>
+                                <span>u</span>
+                                <span>s</span>
+                            </h5>
+                        </div>
+                        <div className='col-md-9 d-flex' style={{ marginLeft: '-50px' }}>
+                            <div className='row'>
+                                <div className='col-md-4'>
+                                    <div className='d-flex' style={{ flexDirection: 'column' }}>
+                                        <div className='pt-4 d-flex justify-content-between' style={{ flexDirection: 'column', height: '250px', textAlign: 'left', border: '1px solid black' }}>
+                                            <h4 className='p-3'>IRITA - Indo russia IT <br></br>association</h4>
+                                            <p className='p-3'>Registration links for <br></br>Upcoming events</p>
+                                        </div>
+                                        <div className='mt-4'>
+                                            <img src={pro6} alt='program-img' className='img-fluid' />
+                                        </div>
+                                        {/* <div className='col-md-4 pt-4 ms-2 text-white' style={{ textAlign: 'left', background: 'rgba(14, 36, 98, 1)', height: '180px' }}>
+                                            <h4>Event Highlights:</h4>
+                                            <p className='mt-4'>Event Highlights: Workshops, webinars, conferences organized by IRITA. Information on past events</p>
+                                        </div>
+                                        <div className='col-md-3 mt-4' style={{ textAlign: 'left' }}>
+                                            <h4>Upcoming Events:</h4>
+                                            <p className='mt-4'>will let you know. Stay Tuned...</p>
+                                        </div> */}
+                                    </div>
+                                </div>
+                                <div className='col-md-8'>
+                                    <div className='row'>
+                                        <div className='col-md-6 pt-4 ms-2 text-white' style={{ textAlign: 'left', background: 'rgba(14, 36, 98, 1)', height: '180px' }}>
+                                            <h4>Event Highlights:</h4>
+                                            <p className='mt-4'>Event Highlights: Workshops, webinars, conferences organized by IRITA. Information on past events</p>
+                                        </div>
+                                        <div className='col-md-4 mt-4' style={{ textAlign: 'left' }}>
+                                            <h4>Upcoming Events:</h4>
+                                            <p className='mt-4'>will let you know. Stay Tuned...</p>
+                                        </div>
+                                        <div className='col-md-12 mt-1 me-2'>
+                                            <img src={pro7} alt='program-img' className='img-fluid' />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='gallery'>
+                    <div class="row pt-3 custom-gallery">
+                        <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
+                            <img src={event1} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" />
+                            <img src={event4} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" />
+                            <img src={event7} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" />
+                        </div>
+
+                        <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
+                            <img src={event2} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" />
+                            <img src={event5} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" />
+                            <img src={event8} class="w-100 shadow-1-strong mb-4" style={{height: '320px'}}
+                                alt="event-img" />
+                        </div>
+
+                        <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
+                            <img src={event3} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" />
+                            <img src={event6} class="w-100 shadow-1-strong mb-4" 
+                                alt="event-img" />
+                            {/* <img src={event9} class="w-100 shadow-1-strong mb-4"
+                                alt="event-img" /> */}
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <Footer />

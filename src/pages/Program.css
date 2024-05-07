@@ -4,126 +4,15 @@
     min-height: 100vh;
 }
 
-.programmes h2{
-    color: #3E58A0;
-    text-align: left;
-    margin: 2rem 1rem;
+.program-bg {
+    position: relative;
+    background: linear-gradient(120.64deg, rgba(71, 122, 235, 0.8) 15.77%, rgba(11, 40, 104, 0.8) 44.85%, rgba(138, 53, 197, 0.8) 96.03%), url(../assets/program.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
 }
 
-
-.left-program{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 1rem 1rem;
-}
-
-
-.left-program h5{
-    color: #3E58A0;
-    text-decoration: underline;
-    box-sizing: border-box;
-    background: #F5F5F5;
-    padding: .5rem 1rem;
-    text-align: left;
-}
-
-.left-content{
-    display: flex;
-    text-align: left;
-}
-
-.pro-img{
-    display: flex;
-    align-items: center;
-    
-}
-
-.p-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    row-gap: 15%;
-}
-
-.p-left #first-pro{
-    font-size: 18px;
-}
-
-.p-left #second-pro{
-    font-size: 16px;
-    color: #ED1C2E;
-}
-
-.women-bg{
-    background: #132C71;
-}
-
-.women-event{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #F5F5F5;
-}
-
-.women-links{
-    color: #3E58A0;
-}
-
-@media screen and (max-width: 767px){
-    .pro-img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-.right-program{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.right-pro{
-    background: #3E58A0;
-}
-
-.right-pro h5{
-    color: #F5F5F5;
-    text-decoration: underline;
-    text-align: left;
-}
-
-.right-pro-content{
-    background: #F5F5F5;
-}
-
-.right-pro-content p{
-    padding: 1rem;
-    text-align: left;
-}
-
-.bottom-links{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.right-links-heading{
-    background: #3E58A0;
-}
-
-.right-links-heading h5{
-    color: #F5F5F5;
-    text-decoration: underline;
-}
-
-.right-links{
-    background: #F5F5F5;
-    padding: 2rem;
-}
-
-.right-links .links{
-    color: #787777;
+.program-area{
+    width: 100%;
+    height: 100%;
 }
