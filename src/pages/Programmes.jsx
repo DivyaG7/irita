@@ -16,8 +16,9 @@ import event4 from '../assets/event4.png'
 import event5 from '../assets/event5.png'
 import event6 from '../assets/event6.png'
 import event7 from '../assets/event7.png'
-import event8 from '../assets/event8.png'
+// import event8 from '../assets/event8.png'
 //import event9 from '../assets/event9.png'
+import event8 from '../assets/event8.jpeg'
 
 export const Programmes = () => {
 
