@@ -3,3 +3,19 @@
 .carousel-control-next {
   display: none !important; /* Use !important to ensure the styles override any other conflicting styles */
 }
+
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.carousel-left-to-right .carousel-item {
+  animation: slideFromLeft 0.6s ease;
+}
+
+

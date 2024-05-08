@@ -55,12 +55,12 @@ export const Programmes = () => {
                                 <div className='col-md-4'>
                                     <img src={pro1} alt='program-img' className='img-fluid' />
                                     <h5 className='mt-4'>PRESIDENT OF IRITA</h5>
-                                    <p className='mt-4'>Have you ever wondered why some brands become a household name in india</p>
+                                    {/* <p className='mt-4'>Have you ever wondered why some brands become a household name in india</p> */}
                                 </div>
                                 <div className='col-md-4'>
                                     <img src={pro2} alt='program-img' className='img-fluid' />
                                     <h5 className='mt-4'>CYBER SECURITY SUMMIT AGAINST WOMEN</h5>
-                                    <p className='mt-4'>Have you ever wondered why some brands become a household name in india</p>
+                                    {/* <p className='mt-4'>Have you ever wondered why some brands become a household name in india</p> */}
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ export const Programmes = () => {
                     </div>
                 </div>
 
-                <div className=''>
+                <div className='mt-3'>
                     <div className='row'>
                         <div className='col-md-2 d-flex  me-5' style={{ flexDirection: 'column' }}>
                             <h5 style={{ position: 'absolute', left: '0', marginTop: '50px', transform: 'rotate(-90deg)' }}>

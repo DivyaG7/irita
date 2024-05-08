@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Carousel } from 'react-bootstrap';
 //import image from '../assets/Rectangle 3.png'
 import main from '../assets/Main_slide.png'
@@ -11,9 +11,21 @@ import '../component/carousel.css'
 
 
 export const MyCarousel = () => {
+
+  const carouselRef = useRef(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      carouselRef.current.next();
+    }, 3000); // Adjust the interval as needed (in milliseconds)
+
+    return () => clearInterval(interval);
+  }, []);
   
   return (
-    <Carousel>
+    <Carousel className='carousel-left-to-right'
+    interval={null} 
+    ref={carouselRef}>
       <Carousel.Item>
         <img
           className="d-block w-100"

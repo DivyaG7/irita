@@ -22,7 +22,7 @@ export const Home = () => {
   return (
     <div className='home'>
       <div>
-        <MyCarousel />
+        <MyCarousel/>
         {/* <img
           className="d-block w-100"
           src={event}
@@ -32,7 +32,7 @@ export const Home = () => {
 
       <section className='statement'>
         <div className='statement-container'>
-          <Carousel interval={null}>
+          <Carousel>
             <Carousel.Item>
               <div className="row row-bg">
                 {/* Content */}
