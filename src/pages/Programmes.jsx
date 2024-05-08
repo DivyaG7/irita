@@ -100,7 +100,7 @@ export const Programmes = () => {
                                     <div className='d-flex' style={{ flexDirection: 'column' }}>
                                         <div className='pt-4 d-flex justify-content-between' style={{ flexDirection: 'column', height: '250px', textAlign: 'left', border: '1px solid black' }}>
                                             <h4 className='p-3'>IRITA - Indo russia IT <br></br>association</h4>
-                                            <p className='p-3'>Registration links for <br></br>Upcoming events</p>
+                                            {/* <p className='p-3'>Registration links for <br></br>Upcoming events</p> */}
                                         </div>
                                         <div className='mt-4'>
                                             <img src={pro6} alt='program-img' className='img-fluid' />
@@ -121,7 +121,7 @@ export const Programmes = () => {
                                             <h4>Event Highlights:</h4>
                                             <p className='mt-4'>Event Highlights: Workshops, webinars, conferences organized by IRITA. Information on past events</p>
                                         </div>
-                                        <div className='col-md-4 mt-4' style={{ textAlign: 'left' }}>
+                                        <div className='col-md-4 pt-4 ms-2' style={{ textAlign: 'left', border: '1px solid black', width: '320px' }}>
                                             <h4>Upcoming Events:</h4>
                                             <p className='mt-4'>will let you know. Stay Tuned...</p>
                                         </div>

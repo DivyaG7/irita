@@ -16,6 +16,7 @@
 
 .carousel-left-to-right .carousel-item {
   animation: slideFromLeft 0.6s ease;
+  /* animation: slideFromLeft 0.6s linear forwards; */
 }
 
 

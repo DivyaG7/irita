@@ -29,14 +29,14 @@ export const MyCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={main}
+          src={friend}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={friend}
+          src={main}
           alt="Second slide"
         />
       </Carousel.Item>
