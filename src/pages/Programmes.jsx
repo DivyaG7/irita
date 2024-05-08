@@ -38,7 +38,7 @@ export const Programmes = () => {
                     <div className='d-flex p-5 text-white mt-5 mb-5' style={{ flexDirection: 'column', textAlign: 'left' }}>
                         <h3 style={{ fontWeight: 'normal' }}>PROGRAMME</h3>
                         <h1 className='mb-5 text-white' style={{ fontSize: '80px' }}>HIGHLIGHTS</h1>
-                        <p className='mb-4 text-white' style={{ fontWeight: '300', fontSize: '20px' }}>a surprisingly informal and lightly unexpected startup conference</p>
+                        <p className='mb-4 text-white' style={{ fontWeight: '300', fontSize: '20px' }}>Worshops, Seminars, Conference meetings.</p>
                         <button style={{ width: '150px', border: 'none', borderRadius: '20px', color: 'white', padding: '.5rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }} onClick={handleButtonClick2}>KNOW MORE</button>
                     </div>
                 </div>
