@@ -24,7 +24,12 @@ export const Programmes = () => {
     const handleButtonClick = () => {
         const nextSection = document.getElementById('gallery');
         nextSection.scrollIntoView({ behavior: 'smooth' });
-      };
+    };
+
+    const handleButtonClick2 = () => {
+        const nextSection = document.getElementById('why-irita');
+        nextSection.scrollIntoView({ behavior: 'smooth' });
+    };
 
     return (
         <>
@@ -34,11 +39,11 @@ export const Programmes = () => {
                         <h3 style={{ fontWeight: 'normal' }}>PROGRAMME</h3>
                         <h1 className='mb-5 text-white' style={{ fontSize: '80px' }}>HIGHLIGHTS</h1>
                         <p className='mb-4 text-white' style={{ fontWeight: '300', fontSize: '20px' }}>a surprisingly informal and lightly unexpected startup conference</p>
-                        <button style={{ width: '150px', border: 'none', borderRadius: '20px', color: 'white', padding: '.5rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }} onClick={handleButtonClick}>KNOW MORE</button>
+                        <button style={{ width: '150px', border: 'none', borderRadius: '20px', color: 'white', padding: '.5rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }} onClick={handleButtonClick2}>KNOW MORE</button>
                     </div>
                 </div>
 
-                <div className='program-area'>
+                <div className='program-area' id='why-irita'>
                     <div className='row'>
                         <div className='col-md-10 col-10 p-5 mt-5' style={{ textAlign: 'left' }}>
                             <h1 style={{ fontSize: '50px', fontWeight: '300', color: 'rgba(62, 88, 160, 1)' }}>WHY</h1>
@@ -50,7 +55,7 @@ export const Programmes = () => {
                                     <p></p>
                                     <p></p>
                                     <p></p>
-                                    <button className='mt-4' style={{ width: '200px', border: 'none', borderRadius: '20px', color: 'white', padding: '.8rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }}>EXPLORE GALLERY</button>
+                                    <button className='mt-4' style={{ width: '200px', border: 'none', borderRadius: '20px', color: 'white', padding: '.8rem .2rem', background: 'linear-gradient(90deg, #B10F0F 0%, #09236B 100%)' }} onClick={handleButtonClick}>EXPLORE GALLERY</button>
                                 </div>
                                 <div className='col-md-4'>
                                     <img src={pro1} alt='program-img' className='img-fluid' />
@@ -158,11 +163,11 @@ export const Programmes = () => {
                         <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
                             <img src={event3} class="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event6} class="w-100 shadow-1-strong mb-4" 
+                            <img src={event6} class="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
                             {/* <img src={event9} class="w-100 shadow-1-strong mb-4"
                                 alt="event-img" /> */}
-                                
+
                         </div>
                     </div>
 
