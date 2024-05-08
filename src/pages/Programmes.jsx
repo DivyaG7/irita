@@ -126,7 +126,7 @@ export const Programmes = () => {
                                             <h4>Event Highlights:</h4>
                                             <p className='mt-4'>Event Highlights: Workshops, webinars, conferences organized by IRITA. Information on past events</p>
                                         </div>
-                                        <div className='col-md-4 pt-4 ms-2' style={{ textAlign: 'left', border: '1px solid black', width: '320px' }}>
+                                        <div className='col-md-5 pt-4 ms-4' style={{ textAlign: 'left', border: '1px solid black'}}>
                                             <h4>Upcoming Events:</h4>
                                             <p className='mt-4'>will let you know. Stay Tuned...</p>
                                         </div>
