@@ -6,29 +6,36 @@
     overflow: hidden;
 }
 
-.footer{
-    background: #DF2D2D;
-    padding: 2rem;
-    color: #FFFFFF;
-}
-
 .footer-content{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer-content1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .vertical-line{
     box-sizing: border-box;
     border-right: 2px solid #FFFFFF;
-    min-height: 20px;
-    margin-top: -13px;
+    max-height: 30px;
+    margin-top: -5px;
     margin-left: .5rem;
     margin-right: .5rem;
+}
+
+@media screen and (max-width: 767px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .vertical-line{
+        max-height: 30px;
+        margin-top: -5px;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    
 }
