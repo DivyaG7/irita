@@ -18,8 +18,6 @@
     font-size: 30px;
 }
 
-
-
 .header-box{
     background: linear-gradient(90deg, #3C58A1 1.67%, #D94539 100%);
     padding: 5px;
@@ -82,6 +80,18 @@
     }
     .input1{
         margin-right: -65px;
+    }
+
+    .navbar-heading h1{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .navbar-heading h1{
+       display: none;
     }
 }
 

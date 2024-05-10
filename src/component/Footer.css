@@ -2,6 +2,8 @@
     background: #DF2D2D;
     padding: 2rem;
     color: #FFFFFF;
+    width: 100%;
+    overflow: hidden;
 }
 
 .footer{

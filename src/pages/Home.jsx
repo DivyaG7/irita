@@ -129,9 +129,9 @@ export const Home = () => {
             <div className='horizontal-line'></div>
             <div className='mt-4 mb-4'>
               <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
+                <div className='col-md-4 '>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg8} alt='newsImage' />
+                    <img src={newsImg8} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
@@ -151,7 +151,7 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg1} alt='newsImage' />
+                    <img src={newsImg1} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
@@ -171,7 +171,7 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg2} alt='newsImage' />
+                    <img src={newsImg2} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
@@ -191,7 +191,7 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg3} alt='newsImage' />
+                    <img src={newsImg3} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
@@ -294,7 +294,7 @@ export const Home = () => {
 
 
 
-      <div className="p-5 mt-5 pt-4" >
+      <div className="p-5 mt-3 pt-2" style={{width: '100%', overflow: 'hidden'}}>
         <div className='About'>
           <h1 className="mb-5">About IRITA</h1>
           <p className='mb-4'>
@@ -309,7 +309,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <video width="100%" height="440" className='mb-4' controls>
+      <video width="100%" height="440" className='mb-4' controls style={{width: '100%', overflow: 'hidden'}}>
         <source src={video2} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

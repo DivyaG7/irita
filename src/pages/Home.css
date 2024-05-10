@@ -1,10 +1,8 @@
-
-
-.statement{
+.statement {
     background: #3E58A0;
 }
 
-.statement-container{
+.statement-container {
     width: 100%;
     overflow: hidden;
 }
@@ -24,8 +22,8 @@
 .statement_image img {
     width: 100%;
     height: auto;
-  }
-  
+}
+
 
 #statement_date {
     font-family: 'Kotta One';
@@ -39,7 +37,7 @@
     font-family: 'Istok Web';
 }
 
-.zoom-container{
+.zoom-container {
     overflow: hidden;
 }
 
@@ -51,42 +49,44 @@
     transform: scale(1.1);
 }
 
-.news{
+.news {
+    width: 100%;
+    overflow: hidden;
     padding: 2rem 2rem;
 }
 
-.news h1{
+.news h1 {
     text-align: left;
 }
 
-.news .horizontal-line{
+.news .horizontal-line {
     box-sizing: border-box;
     border-bottom: 2px solid red;
     margin: 20px 0;
 }
 
-.left-news .news-content{
+.left-news .news-content {
     text-align: left;
     margin-left: 20px;
     padding: .5rem .5rem;
 }
 
-.right-news #news-date{
+.right-news #news-date {
     color: #C9C4C4;
     font-size: 15px;
 }
 
-.right-news #news-h{
+.right-news #news-h {
     color: #152B68;
     font-size: 18px;
 }
 
-.right-news #news-content{
+.right-news #news-content {
     color: #787777;
     font-size: 15px;
 }
 
-.news-content .read{
+.news-content .read {
     font-size: 15px;
     margin-top: -15px;
 }
@@ -96,44 +96,46 @@
     height: 170px;
 } */
 
-@media screen and (min-width:767px) and (max-width:1200px){
-    .news-screen{
+@media screen and (min-width:767px) and (max-width:1200px) {
+    .news-screen {
         display: flex;
         flex-direction: column;
     }
-    .news-screen .col-md-6{
+
+    .news-screen .col-md-6 {
         width: 100vw;
     }
-    .left-news .smaller-image img{
+
+    .left-news .smaller-image img {
         width: 260px;
         height: 170px;
     }
 }
 
-.aside-content{
+.aside-content {
     box-sizing: border-box;
     border: 1px solid #C0BABA;
     border-radius: 15px;
 }
 
-.right-heading{
+.right-heading {
     padding-left: 20px;
     background: #DF2D2D;
     border-radius: 10px;
 }
 
-.right-heading h3{
+.right-heading h3 {
     color: #FFFFFF;
     padding: .3rem;
     text-align: left;
 }
 
-.right-container{
+.right-container {
     max-height: 115vh;
     overflow: scroll;
 }
 
-.right-content{
+.right-content {
     margin: 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -147,77 +149,78 @@
     height: 30vh;  */
 }
 
-.right-news-text p{
+.right-news-text p {
     color: #3E58A0;
     text-align: left;
 }
 
-.media-updates{
+.media-updates {
     background: #3E58A0;
     padding: 3rem 5rem;
     text-align: left;
 }
 
-.media1, .media2 h2{
+.media1,
+.media2 h2 {
     color: #FFFFFF;
 }
 
-.media1 #media-con1{
+.media1 #media-con1 {
     color: #EBE9E9;
 }
 
-.media1 #media-con2{
+.media1 #media-con2 {
     color: #DFDBDB;
 }
 
-.media1 #media-con3{
+.media1 #media-con3 {
     color: #13B1E3;
 }
 
-.media2 #media-con1{
+.media2 #media-con1 {
     color: #EBE9E9;
 }
 
-.media2 #media-con2{
+.media2 #media-con2 {
     color: #DFDBDB;
 }
 
-.media2 #media-con3{
+.media2 #media-con3 {
     color: #13B1E3;
 }
 
-.media3 .x-box{
+.media3 .x-box {
     box-sizing: border-box;
     border: 2px solid #999393;
     border-radius: 10px;
     background: #FFFFFF;
 }
 
-.x-box h6{
+.x-box h6 {
     text-align: center;
     padding: .5rem;
     color: #000000;
     font-weight: bold;
 }
 
-.x-box1{
+.x-box1 {
     padding: 1rem 2rem;
 }
 
-.x-box .hrl{
+.x-box .hrl {
     box-sizing: border-box;
     border-bottom: 2px solid #999393;
 }
 
-.x-box1 h2{
+.x-box1 h2 {
     color: #000000;
 }
 
-.x-box1 p{
+.x-box1 p {
     color: #5B5656;
 }
 
-.x-box1 button{
+.x-box1 button {
     background: #1D9BF0;
     color: #FFFFFF;
     box-sizing: border-box;
@@ -226,9 +229,24 @@
     border-radius: 28px;
 }
 
-.x-box1 img{
+.x-box1 img {
     margin-left: -20px;
 }
 
+@media screen and (max-width: 767px) {
+    .About img{
+        width: 100% !important;
+    }
 
-  
+    .row-bg .statement_content{
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #statement_content{
+        font-size: 14px;
+    }
+
+}

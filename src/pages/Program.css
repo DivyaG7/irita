@@ -22,3 +22,71 @@
         height: 300px;
     }
 }
+
+@media screen and (max-width: 767px){
+    .program-first-comp{
+        align-items: center;
+    }
+    .program-bg h1{
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+
+    .program-area #why-container{
+        margin-top: -10px !important;
+    }
+
+    .program-area #ties{
+        margin-top: -10px !important;
+    }
+
+    .program-area #why{
+        font-size: 30px !important;
+    }
+
+    .program-area #partn{
+        font-size: 30px !important;
+    }
+
+    .program-area #blue-img{
+        display: none;
+    }
+
+    #asso{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #box-height{
+        height: fit-content !important;
+    }
+
+    #highlight-comp{
+        margin-bottom: 20px !important;
+        height: fit-content !important;
+    }
+
+    #upcoming-comp{
+        margin-left: 8px !important;
+    }
+
+    #upcom-img{
+        display: none;
+    }
+
+    #president{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #cyber{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -1,4 +1,4 @@
-.news-event{
+.news-event {
     min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@
 
 .event-img img {
     min-width: 30vw;
-    min-height: 30vh;
+    min-height: 25vh;
 }
 
 .news-event .third {
@@ -55,7 +55,7 @@
     font-family: Karantina;
 }
 
-.third p{
+.third p {
     font-family: Poppins;
 }
 
@@ -64,7 +64,7 @@
     font-family: Karantina;
 }
 
-.five{
+.five {
     background: linear-gradient(219.62deg, #DDE1EA -42.14%, #C63648 6.26%, #758798 74.48%);
     display: flex;
     flex-direction: column;
@@ -73,26 +73,40 @@
     padding: 0 5rem !important;
 }
 
-.five .hr{
+.five .hr {
     box-sizing: border-box;
     border-bottom: 1px solid #FFFFFF;
     width: 30%;
     margin-left: 70%;
 }
 
-.six{
+.six {
     display: flex;
     flex-direction: column;
 }
 
-.six h1{
+.six h1 {
     color: #3E58A0;
 }
 
-.press{
+.press {
     text-align: left;
 }
 
-.link{
+.link {
     color: #ED1C2E;
+}
+
+@media screen and (max-width: 767px) {
+    .four h1 {
+        text-align: center;
+    }
+
+    .third h1 {
+        text-align: center;
+    }
+
+    .bg{
+        padding-top: 3rem;
+    }
 }

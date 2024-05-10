@@ -22,18 +22,18 @@ export const NewsEvents = () => {
                 <img src={eventImg1} alt='event-img' className="img-fluid" />
               </div>
             </div>
-            <div className='col-md-6 third'>
+            <div className='col-lg-6 col-md-12 col-12 third'>
               <h1>Speeches and published materials</h1>
               {/* <p>Signed agreements which would take the
                 Kudankulam project forward.
               </p> */}
             </div>
-            <div className='col-md-6 four'>
+            <div className='col-lg-6 col-md-12 col-12 four'>
               <h1>News and Notices</h1>
               {/* <p>Signed agreements which would take the
                 Kudankulam project forward.</p> */}
             </div>
-            <div className='col-md-6 five pt-4 pb-4'>
+            <div className='col-lg-6 col-md-12 col-12 five pt-4 pb-4'>
               <div className='hr mb-4'></div>
               <h5 className='text-white'>STATEGY</h5>
               <p className='text-white'>FOR A FREE PEACEFULL</p>
@@ -42,7 +42,7 @@ export const NewsEvents = () => {
               <h5 className='text-white'>REGION</h5>
               <div className='hr mt-4'></div>
             </div>
-            <div className='col-md-6 six p-4'>
+            <div className='col-lg-6 col-md-12 col-12 six p-4'>
               <h1 className='mb-3'>Press Release</h1>
               <div className='press'>
                 <Link to='https://www.business-standard.com/content/press-releases-ani/anirudh-balaji-of-horizon-group-appointed-as-the-new-president-of-indo-russian-it-association-121081900891_1.html' className='link'>Business Standard</Link>

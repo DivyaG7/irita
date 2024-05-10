@@ -44,7 +44,7 @@ export const Navbar = () => {
           {/* First Row */}
           <div className='navbar navbar-light justify-content-between w-100'>
             <Link to='/' >
-              <img src={logo} className="navbar-brand" alt='irita-logo' />
+              <img src={logo} className="navbar-brand img-fluid" alt='irita-logo' />
             </Link>
 
             {/* Heading */}
