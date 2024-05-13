@@ -100,15 +100,15 @@ export const Programmes = () => {
                                 <span>s</span>
                             </h5>
                         </div>
-                        <div className='col-md-9 col-9 d-flex' style={{ marginLeft: '-50px' }}>
+                        <div className='col-md-9 col-10 d-flex' style={{ marginLeft: '-50px' }}>
                             <div className='row'>
                                 <div className='col-md-4 col-10 mb-4' id='asso'>
-                                    <div className='d-flex' style={{ flexDirection: 'column' }} >
+                                    <div className='d-flex' style={{ flexDirection: 'column' }} id='asso-sub'>
                                         <div className='pt-4 d-flex justify-content-between' style={{ flexDirection: 'column', height: '250px', textAlign: 'left', border: '1px solid black' }} id='box-height'>
                                             <h4 className='p-3'>IRITA - Indo russia IT <br></br>association</h4>
                                             {/* <p className='p-3'>Registration links for <br></br>Upcoming events</p> */}
                                         </div>
-                                        <div className='mt-4'>
+                                        <div className='mt-4' id='img-height'>
                                             <img src={pro6} alt='program-img' className='img-fluid ' />
                                         </div>
                                         {/* <div className='col-md-4 pt-4 ms-2 text-white' style={{ textAlign: 'left', background: 'rgba(14, 36, 98, 1)', height: '180px' }}>
@@ -121,7 +121,7 @@ export const Programmes = () => {
                                         </div> */}
                                     </div>
                                 </div>
-                                <div className='col-md-8 col-10'>
+                                <div className='col-md-8 col-10' id='follow-comp'>
                                     <div className='row'>
                                         <div className='col-md-6 col-12 pt-4 ms-2 text-white' style={{ textAlign: 'left', background: 'rgba(14, 36, 98, 1)', height: '180px' }} id='highlight-comp'>
                                             <h4>Event Highlights:</h4>
