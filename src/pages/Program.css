@@ -75,6 +75,7 @@
     #box-height{
         width: 50%;
         height: 15vh !important;
+        margin-left: -15px;
     }
 
     #box-height h4{
@@ -91,6 +92,7 @@
         width: 100%;
         height: 100%;
         margin-top: -11px;
+        margin-right: -15px;
     }
 
     #follow-comp{
