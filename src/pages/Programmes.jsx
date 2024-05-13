@@ -142,29 +142,29 @@ export const Programmes = () => {
                 </div>
 
                 <div id='gallery'>
-                    <div class="row pt-3 custom-gallery">
+                    <div className="row pt-3 custom-gallery">
                         <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
-                            <img src={event1} class="w-100 shadow-1-strong mb-4"
+                            <img src={event1} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event4} class="w-100 shadow-1-strong mb-4"
+                            <img src={event4} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event7} class="w-100 shadow-1-strong mb-4"
+                            <img src={event7} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
                         </div>
 
                         <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
-                            <img src={event2} class="w-100 shadow-1-strong mb-4"
+                            <img src={event2} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event5} class="w-100 shadow-1-strong mb-4"
+                            <img src={event5} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event8} class="w-100 shadow-1-strong mb-4" id='event-img'
+                            <img src={event8} className="w-100 shadow-1-strong mb-4" id='event-img'
                                 alt="event-img" />
                         </div>
 
                         <div className="col-lg-4 col-md-12 mb-2 mb-lg-0">
-                            <img src={event3} class="w-100 shadow-1-strong mb-4"
+                            <img src={event3} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
-                            <img src={event6} class="w-100 shadow-1-strong mb-4"
+                            <img src={event6} className="w-100 shadow-1-strong mb-4"
                                 alt="event-img" />
                             {/* <img src={event9} class="w-100 shadow-1-strong mb-4"
                                 alt="event-img" /> */}
