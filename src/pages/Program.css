@@ -25,11 +25,13 @@
 
 @media screen and (max-width: 767px){
     .program-first-comp{
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
     }
     .program-bg h1{
         font-size: 40px !important;
-        text-align: center !important;
     }
 
     .program-area #why-container{
