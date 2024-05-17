@@ -18,15 +18,19 @@ export const Footer = () => {
                                 is a forum for intellectual and
                                 technological exchange.</p>
                             <div className="d-flex gap-2 justify-content-center align-items-center">
-                                <div className="facebook-icon">
+                                <Link to='https://www.facebook.com/irita.ru/'>
+                                    <div className="facebook-icon">
                                         <FontAwesomeIcon icon={faFacebookF} size="1x" />
                                     </div>
+                                </Link>
                                 <div className="facebook-icon">
                                     <FontAwesomeIcon icon={faXTwitter} size="1x" />
                                 </div>
-                                <div className="facebook-icon">
-                                    <FontAwesomeIcon icon={faLinkedinIn} size="1x" />
-                                </div>
+                                <Link to='/'>
+                                    <div className="facebook-icon">
+                                        <FontAwesomeIcon icon={faLinkedinIn} size="1x" />
+                                    </div>
+                                </Link>
                                 {/* <div className="facebook-icon">
                                         <FontAwesomeIcon icon={faInstagram} size="1x" />
                                     </div> */}
