@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer>
             <div className='footer'>
                 <div className='footer-content'>
-                    <div className='row w-100'>
+                    <div className='row w-100' id='footer'>
                         <div className='col-md-4 mb-5' id='foot1'>
                             <Link to='/'>
                                 <img src={logo} alt='logo' style={{ width: '100px' }} />
