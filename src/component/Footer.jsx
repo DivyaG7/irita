@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../component/Footer.css'
 import logo from '../assets/irita-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXTwitter, faLinkedinIn, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
     return (
@@ -23,12 +23,9 @@ export const Footer = () => {
                                         <FontAwesomeIcon icon={faFacebookF} size="1x" />
                                     </div>
                                 </Link>
-                                <div className="facebook-icon">
-                                    <FontAwesomeIcon icon={faXTwitter} size="1x" />
-                                </div>
-                                <Link to='/'>
+                                <Link to='https://www.instagram.com/indorussianitassociation?igsh=MXZ1OHd3OXB0NmZjag=='>
                                     <div className="facebook-icon">
-                                        <FontAwesomeIcon icon={faLinkedinIn} size="1x" />
+                                        <FontAwesomeIcon icon={faInstagram} size="1x" />
                                     </div>
                                 </Link>
                                 {/* <div className="facebook-icon">
