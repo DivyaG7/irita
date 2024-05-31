@@ -25,7 +25,8 @@ export const MyCarousel = () => {
   return (
     <Carousel className='carousel-left-to-right'
     interval={null} 
-    ref={carouselRef}>
+    ref={carouselRef}
+    indicators={false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
