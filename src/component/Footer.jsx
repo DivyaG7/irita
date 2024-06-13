@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer>
             <div className='footer'>
@@ -53,7 +55,7 @@ export const Footer = () => {
                     </div>
 
                     <div className='d-flex justify-content-center align-items-center mt-4'>
-                        <div className='text-center' style={{ fontWeight: '500' }}>Copyright @ 2024. All Rights Reserved.</div>
+                        <div className='text-center' style={{ fontWeight: '500' }}>Copyright &copy; {currentYear}. All Rights Reserved.</div>
                     </div>
                 </div>
             </div>
