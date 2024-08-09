@@ -22,17 +22,17 @@ export const NewsEvents = () => {
                 <img src={eventImg1} alt='event-img' className="img-fluid" />
               </div>
             </div>
-            <div className='col-lg-6 col-md-12 col-12 third'>
+            {/* <div className='col-lg-6 col-md-12 col-12 third'>
               <h1>Speeches and published materials</h1>
-              {/* <p>Signed agreements which would take the
+              <p>Signed agreements which would take the
                 Kudankulam project forward.
-              </p> */}
+              </p>
             </div>
             <div className='col-lg-6 col-md-12 col-12 four'>
               <h1>News and Notices</h1>
-              {/* <p>Signed agreements which would take the
-                Kudankulam project forward.</p> */}
-            </div>
+              <p>Signed agreements which would take the
+                Kudankulam project forward.</p>
+            </div>  */}
             <div className='col-lg-6 col-md-12 col-12 five pt-4 pb-4'>
               <div className='hr mb-4'></div>
               <h5 className='text-white'>STATEGY</h5>
