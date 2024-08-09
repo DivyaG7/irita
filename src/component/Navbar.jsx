@@ -80,6 +80,9 @@ export const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/Programmes" onClick={closeNavbar}>Programmes</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="https://hackathonx.in/" target='_blank' onClick={closeNavbar}>Upcoming Events</Link>
+              </li>
               {/* <li className="nav-item1">
                 <Link className="nav-link" to="/KeyInitiative" onClick={closeNavbar}>Key Initiative</Link>
               </li> */}
