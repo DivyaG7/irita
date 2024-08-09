@@ -78,7 +78,7 @@ export const Navbar = () => {
                 <Link className="nav-link" to="/NewsEvents" onClick={closeNavbar}>News & Events</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Programmes" onClick={closeNavbar}>Programmes</Link>
+                <Link className="nav-link" to="/Programmes" onClick={closeNavbar}>Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="https://hackathonx.in/" target='_blank' onClick={closeNavbar}>Upcoming Events</Link>

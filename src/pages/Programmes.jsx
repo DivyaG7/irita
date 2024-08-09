@@ -129,7 +129,7 @@ export const Programmes = () => {
                                         </div>
                                         <div className='col-md-5 c0l-12 pt-4 ms-4' style={{ textAlign: 'left', border: '1px solid black'}} id='upcoming-comp'>
                                             <h4>Upcoming Events:</h4>
-                                            <p className='mt-4'>will let you know. Stay Tuned...</p>
+                                            <p className='mt-4'><a href='https://hackathonx.in/' style={{textDecoration: 'none', color: 'black'}}>Hackathon X</a></p>
                                         </div>
                                         <div className='col-md-12 mt-1 me-2'>
                                             <img src={pro7} alt='program-img' className='img-fluid' id='upcom-img'/>
