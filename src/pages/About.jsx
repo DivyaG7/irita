@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/About.css'
-import aboutImg from '../assets/about.JPG'
+import about from '../assets/about.JPG'
 import { Footer } from '../component/Footer';
 
 export const About = () => {
@@ -16,7 +16,7 @@ export const About = () => {
             INDO-Russian IT Association (IRITA) is a forum for intellectual and technological exchange. IRITA focuses on bettering the IT sector of India and Russia while bringing the leaders & people of the respective departments together.
           </p>
           <div className="text-center mb-4">
-            <img src={aboutImg} alt='' className="img-fluid " />
+            <img src={about} alt='' className="img-fluid " />
           </div>
         </div>
       </div>

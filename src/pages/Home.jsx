@@ -16,7 +16,7 @@ import { Carousel } from 'react-bootstrap'
 import { Footer } from '../component/Footer'
 import video2 from '../../src/pages/Irita launch.mp4'
 import '../pages/About.css'
-import aboutImg from '../assets/about.JPG'
+import about from '../assets/about.JPG'
 
 export const Home = () => {
   return (
@@ -304,7 +304,7 @@ export const Home = () => {
             INDO-Russian IT Association (IRITA) is a forum for intellectual and technological exchange. IRITA focuses on bettering the IT sector of India and Russia while bringing the leaders & people of the respective departments together.
           </p>
           <div className="text-center mb-4">
-            <img src={aboutImg} alt='' className="img-fluid w-50" />
+            <img src={about} alt='' className="img-fluid w-50" />
           </div>
         </div>
       </div>
