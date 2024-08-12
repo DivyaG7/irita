@@ -16,7 +16,7 @@ import { Carousel } from 'react-bootstrap'
 import { Footer } from '../component/Footer'
 import video2 from '../../src/pages/Irita launch.mp4'
 import '../pages/About.css'
-import about from '../assets/about.JPG'
+import about from '../assets/about.jpg'
 
 export const Home = () => {
   return (

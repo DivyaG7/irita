@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/About.css'
-import about from '../assets/about.JPG'
+import about from '../assets/about.jpg'
 import { Footer } from '../component/Footer';
 
 export const About = () => {
