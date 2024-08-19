@@ -5,9 +5,9 @@ import home1 from '../assets/home1.png'
 import home2 from '../assets/home2.png'
 import home3 from '../assets/home3.png'
 import { Link } from 'react-router-dom'
-import newsImg1 from '../assets/news-2.jpg'
-import newsImg2 from '../assets/news-1.jpg'
-import newsImg3 from '../assets/Rectangle 13059.png'
+import newsImg1 from '../assets/newsImg1.jpg'
+import newsImg2 from '../assets/newsImg2.jpg'
+import newsImg3 from '../assets/newsImg3.jpg'
 import newsImg8 from '../assets/news8.jpg'
 import newsImg7 from '../assets/friendship.jpg'
 //import mediaImg from '../assets/Capture 1.png'
@@ -131,16 +131,16 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4 '>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg8} alt='newsImage' className='img-fluid' />
+                    <img src={newsImg1} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
                   <div className='news-content'>
-                    <p id='news-date'>28 April 2024 </p>
-                    <h2 id='news-h'>Indian officials, Russian Deputy Minister attend India-Russia Investment Forum</h2>
-                    <p id='news-content'>Secretary at the Department for Promotion of Industry and Internal Trade of the Ministry of Commerce and Industry Rajesh Kumar Singh, India’s Ambassador to Russia, Vinay Kumar, and Russian Deputy Minister of Economic Development Vladimir Ilyichev attended the first India-Russia Investment Forum.</p>
+                    <p id='news-date'>19 Aug 2024</p>
+                    <h2 id='news-h'>India To Celebrate First National Space Day On August 23</h2>
+                    <p id='news-content'>In 2023, on this very day, Chandrayaan 3 accomplished the safe and soft landing of Vikram Lander on the lunar surface.</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to='https://theprint.in/world/indian-officials-russian-deputy-minister-attend-india-russia-investment-forum/2060948/'><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://www.ndtv.com/india-news/india-to-celebrate-first-national-space-day-on-august-23-6369632#:~:text=The%20Union%20Government%20has%20declared,surface%20near%20the%20South%20Pole.'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
@@ -151,16 +151,16 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg1} alt='newsImage' className='img-fluid' />
+                    <img src={newsImg2} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
                   <div className='news-content'>
-                    <p id='news-date'>2 April 2024 </p>
-                    <h2 id='news-h'>Putin’s Ex-Classmate Nominated to Head Russian Supreme Court</h2>
-                    <p id='news-content'>President Vladimir Putin’s former university classmate has been nominated as the sole candidate to head Russia’s Supreme Court after the recent death of its longtime chairman, the legal news outlet Rapsi reported Monday.</p>
+                    <p id='news-date'>15 Aug 2024</p>
+                    <h2 id='news-h'>Russian Prez Putin underlines commitment to strong partnership with India</h2>
+                    <p id='news-content'>Russian President Vladimir Putin on Thursday extended warm wishes to India on its Independence Day, underlining Moscow's commitment to strengthening the particularly "privileged strategic partnership" between the two nations.</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to='https://www.themoscowtimes.com/2024/04/01/putins-ex-classmate-nominated-to-head-russian-supreme-court-a84697'><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://www.business-standard.com/external-affairs-defence-security/news/russian-prez-putin-underlines-commitment-to-strong-partnership-with-india-124081500709_1.html'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
@@ -171,16 +171,16 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg2} alt='newsImage' className='img-fluid' />
+                    <img src={newsImg3} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
                   <div className='news-content'>
-                    <p id='news-date'>1 April 2024</p>
-                    <h2 id='news-h'>Good governance in India visible to world, says Jaishankar as he cites Micron CEO's experience</h2>
-                    <p id='news-content'>Micron led by CEO Sanjay Mehrotra has committed to invest over USD 800 million in Gujarat's semiconductor plant of the over USD 2.75 billion total cost.</p>
+                    <p id='news-date'>15 Aug 2024</p>
+                    <h2 id='news-h'>India imports $2.8 billion worth of crude oil from Russia in July</h2>
+                    <p id='news-content'>India, the world's third largest oil consuming and importing nation, in July bought $ 2.8 billion worth of crude oil from Russia, second only to China which remains the largest importer of Russian oil, a report said.</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to='https://indianexpress.com/article/india/micron-ceo-jaishankar-mea-pm-modi-gujarat-semiconductor-plant-investors-9245463/'><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://www.business-standard.com/economy/news/india-imports-2-8-billion-worth-of-crude-oil-from-russia-in-july-124081500280_1.html'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
@@ -191,16 +191,16 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
-                    <img src={newsImg3} alt='newsImage' className='img-fluid' />
+                    <img src={newsImg8} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
                 <div className='col-md-8 right-news'>
                   <div className='news-content'>
-                    <p id='news-date'>20 March 2024</p>
-                    <h2 id='news-h'>From just 8% in 2000, share of women CAs now 30%</h2>
-                    <p id='news-content'>A recent report has revealed a significant  rise.</p>
+                    <p id='news-date'>28 April 2024</p>
+                    <h2 id='news-h'>Indian officials, Russian Deputy Minister attend India-Russia Investment Forum</h2>
+                    <p id='news-content'>Secretary at the Department for Promotion of Industry and Internal Trade of the Ministry of Commerce and Industry Rajesh Kumar Singh, India’s Ambassador to Russia, Vinay Kumar, and Russian Deputy Minister of Economic Development Vladimir Ilyichev attended the first India-Russia Investment Forum.</p>
                     <div className="read">
-                      <Link className="text-decoration-none" to='https://timesofindia.indiatimes.com/india/from-just-8-in-2000-share-of-women-cas-now-30/articleshow/108627341.cms'><span>&rarr;</span>(read...)</Link>
+                      <Link className="text-decoration-none" to='https://theprint.in/world/indian-officials-russian-deputy-minister-attend-india-russia-investment-forum/2060948/'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
