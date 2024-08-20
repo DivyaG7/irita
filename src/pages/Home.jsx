@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import newsImg1 from '../assets/newsImg1.jpg'
 import newsImg2 from '../assets/newsImg2.jpg'
 import newsImg3 from '../assets/newsImg3.jpg'
-import newsImg8 from '../assets/news8.jpg'
+import newsImg4 from '../assets/newsImg4.jpg'
 import newsImg7 from '../assets/friendship.jpg'
 //import mediaImg from '../assets/Capture 1.png'
 import { Carousel } from 'react-bootstrap'
@@ -131,6 +131,26 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4 '>
                   <div className='news-image smaller-image'>
+                    <img src={newsImg4} alt='newsImage' className='img-fluid' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>20 Aug 2024</p>
+                    <h2 id='news-h'>5 years of Article 370 abrogation: What can govt do to build sustainable, long-t ..</h2>
+                    <p id='news-content'>In 2023, on this very day, Chandrayaan 3 accomplished the safe and soft landing of Vikram Lander on the lunar surface.</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://government.economictimes.indiatimes.com/news/secure-india/5-years-of-article-370-abrogation-what-can-govt-do-to-build-sustainable-long-term-peace-in-jammu/112632034'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+              <div className='left-news row align-items-center'>
+                <div className='col-md-4'>
+                  <div className='news-image smaller-image'>
                     <img src={newsImg1} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
@@ -144,10 +164,11 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
 
-            <div className='mb-4'>
+            <div className='mt-4 mb-4'>
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
@@ -164,10 +185,11 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
 
-            <div className='mt-4 mb-4'>
+            <div className='mb-4'>
               <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
@@ -184,26 +206,7 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg8} alt='newsImage' className='img-fluid' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>28 April 2024</p>
-                    <h2 id='news-h'>Indian officials, Russian Deputy Minister attend India-Russia Investment Forum</h2>
-                    <p id='news-content'>Secretary at the Department for Promotion of Industry and Internal Trade of the Ministry of Commerce and Industry Rajesh Kumar Singh, India’s Ambassador to Russia, Vinay Kumar, and Russian Deputy Minister of Economic Development Vladimir Ilyichev attended the first India-Russia Investment Forum.</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://theprint.in/world/indian-officials-russian-deputy-minister-attend-india-russia-investment-forum/2060948/'><span>&rarr;</span>(read...)</Link>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
               <div id='about'>
 
