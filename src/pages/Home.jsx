@@ -131,6 +131,26 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4 '>
                   <div className='news-image smaller-image'>
+                    <img src={newsImg3} alt='newsImage' className='img-fluid' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>03 Oct 2024</p>
+                    <h2 id='news-h'>Russia sets coal mining, new energy ambition in India..</h2>
+                    <p id='news-content'>Russia is aiming to boost coal mining projects and energy collaboration in India, leveraging its significant coal resources amid global shortages.</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://economictimes.indiatimes.com/news/international/business/russia-sets-coal-mining-new-energy-ambition-in-india/articleshow/113899332.cms'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+            <div className='left-news row align-items-center'>
+                <div className='col-md-4 '>
+                  <div className='news-image smaller-image'>
                     <img src={newsImg4} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
@@ -145,10 +165,11 @@ export const Home = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
 
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
+            <div className='mt-4 mb-4'>
+            <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
                     <img src={newsImg1} alt='newsImage' className='img-fluid' />
@@ -166,10 +187,11 @@ export const Home = () => {
                 </div>
                 
               </div>
+              
             </div>
 
-            <div className='mt-4 mb-4'>
-              <div className='left-news row align-items-center'>
+            <div className='mb-4'>
+            <div className='left-news row align-items-center'>
                 <div className='col-md-4'>
                   <div className='news-image smaller-image'>
                     <img src={newsImg2} alt='newsImage' className='img-fluid' />
@@ -182,27 +204,6 @@ export const Home = () => {
                     <p id='news-content'>Russian President Vladimir Putin on Thursday extended warm wishes to India on its Independence Day, underlining Moscow's commitment to strengthening the particularly "privileged strategic partnership" between the two nations.</p>
                     <div className="read">
                       <Link className="text-decoration-none" to='https://www.business-standard.com/external-affairs-defence-security/news/russian-prez-putin-underlines-commitment-to-strong-partnership-with-india-124081500709_1.html'><span>&rarr;</span>(read...)</Link>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-
-            <div className='mb-4'>
-              <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg3} alt='newsImage' className='img-fluid' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>15 Aug 2024</p>
-                    <h2 id='news-h'>India imports $2.8 billion worth of crude oil from Russia in July</h2>
-                    <p id='news-content'>India, the world's third largest oil consuming and importing nation, in July bought $ 2.8 billion worth of crude oil from Russia, second only to China which remains the largest importer of Russian oil, a report said.</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://www.business-standard.com/economy/news/india-imports-2-8-billion-worth-of-crude-oil-from-russia-in-july-124081500280_1.html'><span>&rarr;</span>(read...)</Link>
                     </div>
                   </div>
                 </div>
