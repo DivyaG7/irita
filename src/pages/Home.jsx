@@ -5,7 +5,7 @@ import home1 from '../assets/home1.png'
 import home2 from '../assets/home2.png'
 import home3 from '../assets/home3.png'
 import { Link } from 'react-router-dom'
-import newsImg1 from '../assets/newsImg1.jpg'
+import newsImg1 from '../assets/newsImg5.jpg'
 import newsImg2 from '../assets/newsImg2.jpg'
 import newsImg3 from '../assets/newsImg3.jpg'
 import newsImg4 from '../assets/newsImg4.jpg'
@@ -22,7 +22,7 @@ export const Home = () => {
   return (
     <div className='home'>
       <div>
-        <MyCarousel/>
+        <MyCarousel />
         {/* <img
           className="d-block w-100"
           src={event}
@@ -131,6 +131,47 @@ export const Home = () => {
               <div className='left-news row align-items-center'>
                 <div className='col-md-4 '>
                   <div className='news-image smaller-image'>
+                    <img src={newsImg2} alt='newsImage' className='img-fluid' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>07 Oct 2024</p>
+                    <h2 id='news-h'>Putin to celebrate his birthday in office..</h2>
+                    <p id='news-content'>Russia is aiming to boost coal mining projects and energy collaboration in India, leveraging its significant coal resources amid global shortages.</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://tass.com/society/1852701'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-4'>
+            <div className='left-news row align-items-center'>
+                <div className='col-md-4 '>
+                  <div className='news-image smaller-image'>
+                    <img src={newsImg1} alt='newsImage' className='img-fluid' />
+                  </div>
+                </div>
+                <div className='col-md-8 right-news'>
+                  <div className='news-content'>
+                    <p id='news-date'>07 Oct 2024</p>
+                    <h2 id='news-h'>India's $20 billion investment deals pipeline lures funds to PE-held stakes..</h2>
+                    <p id='news-content'>The majority of deals are priced at discounts of between 20 per cent to 25per cent of their net asset values, making them attractive for secondary buyers, said Amit Gupta, founding partner at TPG NewQ.</p>
+                    <div className="read">
+                      <Link className="text-decoration-none" to='https://www.business-standard.com/economy/news/india-s-20-billion-investment-deals-pipeline-lures-funds-to-pe-held-stakes-124100700081_1.html'><span>&rarr;</span>(read...)</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <div className='mt-4 mb-4'>
+            <div className='left-news row align-items-center'>
+                <div className='col-md-4 '>
+                  <div className='news-image smaller-image'>
                     <img src={newsImg3} alt='newsImage' className='img-fluid' />
                   </div>
                 </div>
@@ -145,7 +186,10 @@ export const Home = () => {
                   </div>
                 </div>
               </div>
+              
+
             </div>
+
 
             <div className='mb-4'>
             <div className='left-news row align-items-center'>
@@ -166,53 +210,13 @@ export const Home = () => {
                 </div>
               </div>
               
+
             </div>
 
-            <div className='mt-4 mb-4'>
-            <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg1} alt='newsImage' className='img-fluid' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>19 Aug 2024</p>
-                    <h2 id='news-h'>India To Celebrate First National Space Day On August 23</h2>
-                    <p id='news-content'>In 2023, on this very day, Chandrayaan 3 accomplished the safe and soft landing of Vikram Lander on the lunar surface.</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://www.ndtv.com/india-news/india-to-celebrate-first-national-space-day-on-august-23-6369632#:~:text=The%20Union%20Government%20has%20declared,surface%20near%20the%20South%20Pole.'><span>&rarr;</span>(read...)</Link>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-              
+            <div id='about'>
+
             </div>
 
-            <div className='mb-4'>
-            <div className='left-news row align-items-center'>
-                <div className='col-md-4'>
-                  <div className='news-image smaller-image'>
-                    <img src={newsImg2} alt='newsImage' className='img-fluid' />
-                  </div>
-                </div>
-                <div className='col-md-8 right-news'>
-                  <div className='news-content'>
-                    <p id='news-date'>15 Aug 2024</p>
-                    <h2 id='news-h'>Russian Prez Putin underlines commitment to strong partnership with India</h2>
-                    <p id='news-content'>Russian President Vladimir Putin on Thursday extended warm wishes to India on its Independence Day, underlining Moscow's commitment to strengthening the particularly "privileged strategic partnership" between the two nations.</p>
-                    <div className="read">
-                      <Link className="text-decoration-none" to='https://www.business-standard.com/external-affairs-defence-security/news/russian-prez-putin-underlines-commitment-to-strong-partnership-with-india-124081500709_1.html'><span>&rarr;</span>(read...)</Link>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-              <div id='about'>
-
-              </div>
-            </div>
 
 
 
@@ -298,7 +302,7 @@ export const Home = () => {
 
 
 
-      <div className="p-5 mt-3 pt-2" style={{width: '100%', overflow: 'hidden'}}>
+      <div className="p-5 mt-3 pt-2" style={{ width: '100%', overflow: 'hidden' }}>
         <div className='About'>
           <h1 className="mb-5">About IRITA</h1>
           <p className='mb-4'>
@@ -313,7 +317,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <video width="100%" height="440" className='mb-4' controls style={{width: '100%', overflow: 'hidden'}}>
+      <video width="100%" height="440" className='mb-4' controls style={{ width: '100%', overflow: 'hidden' }}>
         <source src={video2} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
